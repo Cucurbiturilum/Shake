@@ -1,0 +1,274 @@
+.step-1 {
+  .information {
+    padding-right: 1.75rem;
+    @media (min-width: 992px) and (max-width: 1400px) {
+      padding-right: 0.5rem;
+    }
+    @media (max-width: 992px) {
+      padding-right: 12px;
+    }
+
+    form {
+      .forms {
+        border: 1px solid #ececec !important;
+        padding: 2.5rem;
+        margin-bottom: 2.5rem;
+
+        .form-group {
+          margin-bottom: 2.5rem;
+
+          &:last-of-type {
+            margin-bottom: 0;
+          }
+
+          .border-secondary {
+            border-color: #ececec !important;
+          }
+
+          .custom-select {
+            background-image: url(../images/sort-up-and-down-arrows-couple.png);
+            background-repeat: no-repeat;
+            background-size: 1.1rem;
+          }
+
+          .form-control {
+            height: 3rem;
+            font-size: 1rem;
+
+            &.shake {
+              height: 10rem;
+            }
+
+            @media (min-width: 768px) {
+              height: 3.75rem;
+              font-size: 1.6875rem;
+            }
+
+            &:focus {
+              outline: none;
+            }
+          }
+
+          .input-group {
+            .input-group-text {
+              height: 3rem;
+              font-size: 1rem;
+              color: $text-color;
+              @media (min-width: 768px) {
+                height: 3.75rem;
+                font-size: 1.6875rem;
+              }
+            }
+          }
+
+          #price {
+            font-size: 0.8rem;
+            color: $text-color;
+          }
+        }
+      }
+
+      .text-right {
+        margin-bottom: 2.5rem;
+      }
+    }
+  }
+
+  .loading {
+    .preview {
+      background-color: #fff;
+
+      .marketplace {
+        font-size: 0.8125rem;
+        line-height: 2;
+        text-align: center;
+        color: $text-color;
+        background-color: #eeeeee;
+        border-radius: 5px;
+        width: 10rem;
+        margin: auto;
+        position: relative;
+        top: -15px;
+      }
+
+      .card {
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+
+        .card-body {
+          padding: 1rem 2.5rem;
+          @media (max-width: 1440px) {
+            padding: 1rem 1rem;
+          }
+
+          .card-title {
+            font-size: 1.1rem;
+            color: $text-color;
+            @media (min-width: 425px) and (max-width: 992px) {
+              font-size: 1.3rem;
+            }
+            @media (min-width: 1024px) and (max-width: 1440px) {
+              font-size: 0.9rem;
+            }
+          }
+
+          .card-text {
+            color: $title-color;
+            font-size: 0.9rem;
+            @media (min-width: 425px) and (max-width: 992px) {
+              font-size: 1.1rem;
+            }
+            @media (min-width: 1024px) and (max-width: 1440px) {
+              font-size: 0.7rem;
+            }
+          }
+
+          .base-price {
+            font-size: 1.1rem;
+            color: $text-color;
+            font-weight: bold;
+            @media (min-width: 425px) and (max-width: 992px) {
+              font-size: 1.3rem;
+            }
+            @media (min-width: 1024px) and (max-width: 1440px) {
+              font-size: 0.9rem;
+            }
+
+            span {
+              font-size: 0.9rem;
+              font-weight: normal;
+              @media (min-width: 425px) and (max-width: 992px) {
+                font-size: 1.1rem;
+              }
+              @media (min-width: 1024px) and (max-width: 1440px) {
+                font-size: 0.7rem;
+              }
+            }
+          }
+        }
+      }
+
+      .dropzone {
+        height: 14rem;
+
+        .dz-preview-img {
+          border-radius: 0;
+        }
+
+        .dz-preview {
+          background-image: url(../images/dropzone.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+          border-radius: 0;
+        }
+
+        &.dz-max-files-reached {
+          .placeholder {
+            display: none !important;
+          }
+        }
+
+        .placeholder {
+          padding: 1.25rem 3.35rem 0 3.35rem;
+          position: absolute;
+          background-color: rgba(133, 135, 138, 0.3);
+          border-radius: 5px;
+          @media (max-width: 400px) {
+            padding: 1.25rem 2rem 0 2rem;
+          }
+          @media (min-width: 600px) and (max-width: 992px) {
+            padding: 1.25rem 5rem 0 5rem;
+          }
+          @media (min-width: 992px) and (max-width: 1400px) {
+            padding: 1.1rem 1.1rem 0 1.1rem;
+          }
+
+
+          p {
+            color: white;
+            font-size: 0.9rem;
+            @media (max-width: 400px) {
+              font-size: 0.7rem;
+            }
+            @media (min-width: 600px) and (max-width: 992px) {
+              font-size: 1.1rem;
+            }
+            @media (min-width: 992px) and (max-width: 1400px) {
+              font-size: 0.7rem;
+            }
+
+            span {
+              font-size: 0.7rem;
+              @media (max-width: 400px) {
+                font-size: 0.5rem;
+              }
+              @media (min-width: 600px) and (max-width: 992px) {
+                font-size: 0.9rem;
+              }
+              @media (min-width: 992px) and (max-width: 1400px) {
+                font-size: 0.5rem;
+              }
+            }
+          }
+
+          .upload {
+            background-color: $title-color;
+            border-radius: 5px;
+            width: 9rem;
+            font-size: 0.7rem;
+            position: relative;
+            bottom: -10px;
+            margin: auto;
+          }
+        }
+
+        .dz-message {
+          background-color: transparent;
+          border: none;
+          height: 100%;
+          width: 100%;
+
+          span {
+            position: absolute;
+            bottom: 2rem;
+            width: 100%;
+            left: 0;
+          }
+        }
+      }
+
+      .promotion {
+        padding: 2.5rem;
+        font-size: 1.1rem;
+        color: $text-color;
+        @media (max-width: 600px) {
+          font-size: 0.9rem;
+          padding: 1.25rem;
+        }
+        @media (min-width: 600px) and (max-width: 992px) {
+          font-size: 1.3rem;
+        }
+        @media (min-width: 992px) and (max-width: 1400px) {
+          font-size: 0.9rem;
+          padding: 1.25rem;
+        }
+      }
+    }
+
+    .info {
+      margin-top: 1.25rem;
+      margin-bottom: 1.25rem;
+      color: $text-color;
+      font-size: 0.8rem;
+
+      img {
+        margin-right: 10px;
+        padding: 3px;
+        height: 1.3rem;
+        border: 1px solid $text-color;
+        border-radius: 50%;
+      }
+    }
+  }
+}

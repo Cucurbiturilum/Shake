@@ -1,0 +1,118 @@
+.step-2 {
+  .description {
+    background-color: #fff;
+    padding: 1.25rem;
+    border-color: #ececec;
+
+    .ql-toolbar {
+      &.ql-snow {
+        border-color: #ececec;
+      }
+    }
+
+    .ql-container {
+      height: auto;
+
+      &.ql-snow {
+        border: none;
+      }
+    }
+
+    .ql-editor {
+      border-color: #ececec;
+    }
+  }
+
+  .package {
+    background-color: #fff;
+    padding: 1.25rem;
+    border-color: #ececec;
+
+    form {
+      padding: 2.5rem 1.25rem;
+      background-color: #fcfcfc;
+
+      .forms {
+        background-color: #fcfcfc;
+        @media (min-width: 1024px) {
+          border-right: 1px solid #ececec;
+        }
+
+        input {
+          height: 3rem;
+          border-color: #ececec;
+          color: $text-color;
+          font-size: 1.1rem;
+        }
+
+        textarea {
+          height: 10rem;
+          color: $text-color;
+          font-size: 1.1rem;
+        }
+
+        .custom-select {
+          margin-bottom: 1.735rem;
+          height: 3rem;
+          border-color: #ececec;
+          color: $text-color;
+          font-size: 1.1rem;
+        }
+      }
+    }
+
+    .form-check {
+      .form-check-input {
+        width: 1.3rem;
+        height: 1.3rem;
+        margin-left: 0;
+      }
+
+      .form-check-label {
+        color: $text-color;
+        margin-bottom: 0.5rem;
+        margin-left: 2rem;
+        padding-top: 0.2rem;
+        @media (min-width: 768px) and (max-width: 1024px) {
+          font-size: 1rem;
+        }
+        @media (max-width: 435px) {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+
+  .extras {
+    background-color: #fff;
+    padding: 1.25rem;
+    border-color: #ececec;
+
+    form {
+      padding: 2.5rem 1.25rem 1.375rem 1.25rem;
+      background-color: #fcfcfc;
+
+      input {
+        height: 3rem;
+        border-color: #ececec;
+        color: $text-color;
+        font-size: 1.1rem;
+      }
+      .input-group-text{
+        font-size: 1.1rem;
+      }
+      .custom-select {
+        margin-bottom: 1.735rem;
+        height: 3rem;
+        border-color: #ececec;
+        color: $text-color;
+        font-size: 1.1rem;
+      }
+    }
+  }
+
+  .save{
+    margin-top: 2.5rem;
+    margin-right: 12px;
+  }
+}

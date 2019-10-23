@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://localhost:4400/user/gigs/new -->
+<html data-ember-extension="1" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>IZEA Gigs</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="turquoise-web/config/environment"
+          content="%7B%22modulePrefix%22%3A%22turquoise-web%22%2C%22environment%22%3A%22development%22%2C%22rootURL%22%3A%22%2F%22%2C%22locationType%22%3A%22auto%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%2C%22_JQUERY_INTEGRATION%22%3Atrue%7D%2C%22APP%22%3A%7B%22name%22%3A%22turquoise-web%22%2C%22version%22%3A%220.1.0%2B224b192e%22%7D%2C%22ember-cli-notifications%22%3A%7B%22includeFontAwesome%22%3Atrue%7D%2C%22turquoise%22%3A%7B%22izeaxApiUrl%22%3A%22http%3A%2F%2Fapi.iex.com%3A5500%22%2C%22diamondApiUrl%22%3A%22http%3A%2F%2Flocalhost%3A5030%22%2C%22diamondClientId%22%3A%22aafa78f07e37b1a9f1fa5ebdf7698a147ed346d2da89d68be75d52d565928b85%22%2C%22diamondClientSecret%22%3A%22d001a1ed8d6c04a7403ab732488aeeda4d6454e9bb0223880e3c0ee6e56ef4d7%22%2C%22obsidianApiUrl%22%3A%22http%3A%2F%2Flocalhost%3A5000%22%7D%2C%22exportApplicationGlobal%22%3Atrue%2C%22isModuleUnification%22%3Afalse%7D">
+    <link rel="stylesheet" href="fonts/feather/feather.css">
+    <link rel="stylesheet" href="assets/css/theme.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/ember-cli-live-reload.js"></script>
+    <script src="js/livereload.js"></script>
+    <script src="js/vendor.js"></script>
+    <script src="js/turquoise-web.js"></script>
+</head>
+<body class="ember-application">
+<div id="draggable-live-region"
+     aria-relevant="additions"
+     aria-atomic="true"
+     aria-live="assertive"
+     role="log"
+     style="position: fixed; width: 1px; height: 1px; top: -1px; overflow: hidden;"></div>
+<div class="ember-view" id="ember257">
+    <div id="ember260" class="ember-view">
+        <div data-test-notification-container="top" style="z-index: 99999;" id="ember263"
+             class="_c-notification__container--top_rc8i2a _c-notification__container_rc8i2a ember-view"><!----></div>
+    </div>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-white">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="logo" class="w-100"/>
+                </a>
+                <span class="messages mr-4 ml-auto d-md-none">132</span>
+                <button class="navbar-toggler" data-toggle="collapse" data-target=".navbar-supported-content"
+                        aria-controls="navbar-supported-content" aria-expanded="false" aria-label="Toggle navigation"
+                        type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="d-md-none w-100 text-right user-collapse">
+                    <button class="navbar-toggler-2" data-toggle="collapse" data-target=".navbar-user-content"
+                            aria-controls="navbar-user-content" aria-expanded="false" aria-label="Toggle navigation">
+                        <a class="nav-link text-right navbar-user d-inline-block" href="#">
+                            J. Doverness
+                        </a>
+                        <a class="nav-link avatar avatar-sm " href="#">
+                            <img src="images/avatar.png" alt="avatar" class="avatar-img rounded-circle">
+                        </a>
+                    </button>
+                    <div class="collapse navbar-collapse  navbar-user-content">
+                        <ul class="navbar-nav text-right">
+                            <li class="nav-item d-flex justify-content-end align-items-center">
+                                <div>
+                                    <a class="nav-link" href="#">Switch to Buying</a>
+                                    <a class="nav-link" href="#">Profile</a>
+                                    <a class="nav-link" href="#">Security</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--User collapse-->
+                <div class="collapse navbar-collapse justify-content-between navbar-supported-content">
+                    <ul class="navbar-nav text-right">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                Dashboard
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                Orders
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                Shakes
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                Affiliate
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                Finances
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                Messages
+                                <span class="messages d-none d-lg-inline-block">
+                                    132
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div><!--Menu-->
+                <div class="collapse navbar-collapse justify-content-between navbar-supported-content d-none d-md-flex">
+                    <ul class="navbar-nav mr-2">
+                        <li class="nav-item m-auto dropdown d-flex align-items-center">
+                            <a class="nav-link text-right navbarDropdown navbar-user d-inline-block d-sm-none d-xl-inline-block"
+                               href="#"
+                               role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                J. Doverness
+                            </a>
+                            <a class="avatar avatar-sm nav-link dropdown-toggle navbarDropdown"
+                               href="#"
+                               role="button" data-toggle="dropdown" aria-haspopup="true"
+                               aria-expanded="false">
+                                <img src="images/avatar.png" alt="avatar" class="avatar-img rounded-circle">
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#"
+                                   data-ember-action="" data-ember-action-264="264">Switch to Buying</a>
+                                <a class="dropdown-item" href="#"
+                                   data-ember-action="" data-ember-action-264="264">Profile</a>
+                                <a class="dropdown-item" href="#"
+                                   data-ember-action="" data-ember-action-264="264">Security</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div><!--User dropdown-->
+            </div>
+        </nav>
+    </header>
+    <header>
+        <nav class="navbar navbar-expand-md bg-white py-0 crams">
+            <div class="container-fluid">
+                <div class="steps">
+                    <div class="col-md-4 font-weight-bold text-uppercase d-none d-xl-inline mb-lg-0 pl-0">
+                        <span>
+                            Create Shake
+                        </span>
+                    </div>
+                    <div data-ember-action="" data-ember-action-265="265"
+                         class="col-1 col-md-4 current pr-0 mb-lg-0">
+                        <span class="btn btn-sm btn-rounded-circle btn-success">1</span>
+                        <span class="d-none d-md-inline d-none d-md-inline pt-2 steps-item">
+                           Listing Card
+                       </span>
+                    </div>
+                    <div data-ember-action="" data-ember-action-266="266"
+                         class="col-1 col-md-4 pr-0 mb-lg-0">
+                        <span class="btn btn-sm btn-rounded-circle btn-white">2</span>
+                        <span class="d-none d-md-inline d-none d-md-inline pt-2 steps-item">
+                           Description
+                       </span>
+                    </div>
+                    <div data-ember-action="" data-ember-action-267="267"
+                         class="col-1 col-md-4 pr-0 mb-lg-0">
+                        <span class="btn btn-sm btn-rounded-circle btn-white">3</span>
+                        <span class="d-none d-md-inline d-none d-md-inline pt-2 steps-item">
+                           Samples
+                        </span>
+                    </div>
+                    <div data-ember-action="" data-ember-action-268="268"
+                         class="col-1 col-md-4 pr-0 mb-lg-0">
+                        <span class="btn btn-sm btn-rounded-circle btn-white">4</span>
+                        <span class="d-none d-md-inline d-none d-md-inline pt-2 steps-item">
+                            Requirements
+                        </span>
+                    </div>
+                    <div data-ember-action="" data-ember-action-269="269"
+                         class="col-1 col-md-4 pr-0 mb-lg-0">
+                        <span class="btn btn-sm btn-rounded-circle btn-white">5</span>
+                        <span class="d-none d-md-inline d-none d-md-inline pt-2 steps-item">
+                           Q&A
+                       </span>
+                    </div>
+                    <div data-ember-action="" data-ember-action-270="270"
+                         class="col-1 col-md-4 pr-0 mb-lg-0">
+                        <span class="btn btn-sm btn-rounded-circle btn-white">6</span>
+                        <span class="d-none d-md-inline d-none d-md-inline pt-2 steps-item">
+                           Submit
+                       </span>
+                    </div>
+
+                    <div data-ember-action="" data-ember-action-270="270"
+                         class="col-1 col-md-4 pr-0">
+
+                    </div>
+
+                    <div data-ember-action="" data-ember-action-270="270"
+                         class="current-item col-4 d-md-none text-left">
+                        Listing Card
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="step-1">
+        <div class="header m-0">
+            <div class="header-body pt-0">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <h1 class="header-title font-weight-light">
+                            Let's Get Your Shakin'
+                        </h1>
+                        <h6 class="header-pretitle mb-0">
+                            Please provide the basic information for your Shake.
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-8 information">
+                <form data-ember-action="" data-ember-action-277="277">
+                    <div class="border rounded bg-white forms">
+                        <div class="form-group d-md-flex">
+                            <label class="col-md-3 my-auto text-left text-md-right pb-3 pb-md-0 pl-0">Listing
+                                Category</label>
+                            <select class="form-control col-md-9 border border-secondary custom-select"
+                                    data-toggle="select">
+                                <option>-</option>
+                                <option>Design</option>
+                                <option>Photography</option>
+                                <option>Audio</option>
+                                <option>Video</option>
+                                <option>Writing</option>
+                                <option>Influencer</option>
+                            </select>
+                        </div>
+                        <div class="form-group d-md-flex">
+                            <label class="col-md-3 my-auto text-left text-md-right pb-3 pb-md-0 pl-0">Sub
+                                Category</label>
+                            <select class="form-control col-md-9 border border-secondary custom-select"
+                                    data-toggle="select">
+                                <option>-</option>
+                            </select>
+                        </div>
+                        <div class="form-group d-md-flex">
+                            <label class="col-md-3 my-auto text-left text-md-right pb-3 pb-md-0 pl-0">Primary
+                                Action</label>
+                            <select class="form-control col-md-9 border border-secondary custom-select"
+                                    data-toggle="select">
+                                <option>-</option>
+                            </select>
+                        </div>
+                        <div class="form-group d-md-flex">
+                            <label for="ember278"
+                                   class="col-md-3 my-auto text-left text-md-right pb-3 pb-md-0 pl-0 shake">
+                                Shake Title
+                                <span class="d-block word-count">50/128</span>
+                            </label>
+                            <textarea id="ember278"
+                                      class="border border-secondary form-control ember-text-field ember-view col-md-9 shake"></textarea>
+                            <div id="ember279" class="char-count ember-view">
+                            </div>
+                        </div>
+                        <div class="form-group d-md-flex">
+                            <label for="ember280"
+                                   class="col-md-3 my-auto text-left text-md-right pb-3 pb-md-0 pl-0">Starting
+                                Price</label>
+                            <div class="input-group col-md-3 px-0 mt-auto mb-auto">
+                                <div class="input-group-prepend">
+                                        <span class="input-group-text border-right-0 border border-secondary"
+                                              id="inputGroupPrepend">$</span>
+                                </div>
+                                <input id="ember280" type="text"
+                                       class="border-left-0 border border-secondary form-control ember-text-field ember-view">
+                            </div>
+                            <div class="col-md-6 mt-3 mt-md-0 text-left" id="price">
+                                All prices in USD.<br>
+                                You can add pricing extras on the next screens. <br>
+                                A 20% marketplace fee applies to all orders.
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-right d-none d-lg-block save">
+                        <button class="btn btn-primary" type="submit">Save &amp; Next</button>
+                    </p>
+                </form>
+            </div>
+            <div class="col-12 col-lg-4 loading">
+                <div class="border rounded preview">
+                    <p class="text-uppercase marketplace">
+                        Marketplace Preview
+                    </p>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row align-items-center flex-nowrap">
+                                <div class="col-auto ">
+                                    <img src="images/avatar.png"
+                                         alt="avatar"
+                                         class="avatar avatar-sm rounded-circle">
+                                </div>
+                                <div class="col ml-n2">
+                                    <h4 class="card-title mb-1">
+                                        J. Doverness
+                                    </h4>
+                                    <p class="card-text small mb-1">
+                                        Top Rated Shaker
+                                    </p>
+                                </div>
+                                <div class="col-auto text-center base-price">
+                                    $125.00
+                                    <span class="d-block">
+                                            Base Price
+                                        </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col px-0 border-top border-bottom">
+                        <!-- Single -->
+                        <div class="dropzone dropzone-single d-flex justify-content-center align-items-center"
+                             data-toggle="dropzone"
+                             data-options='{"url": "https://", "maxFiles": 1, "acceptedFiles": "image/*", "dictDefaultMessage": ""}'>
+                            <!-- Fallback -->
+                            <div class="fallback">
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input"
+                                           id="projectCoverUploads">
+                                    <label class="custom-file-label" for="projectCoverUploads">Choose
+                                        file</label>
+                                </div>
+                            </div>
+                            <!-- Preview -->
+                            <div class="dz-preview dz-preview-single text-center">
+                                <div class="dz-preview-cover">
+                                    <img class="dz-preview-img" src="javascript:void(0)" alt="..."
+                                         data-dz-thumbnail>
+                                </div>
+                            </div>
+                            <div class="placeholder text-center">
+                                <img src="images/picture.png" alt="picture">
+                                <p>Drop a featured photo or video here.
+                                    <span class="d-block">(Only minimal text overlays permitted)</span>
+                                </p>
+                                <p class="upload">-OR- CLICK TO UPLOAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col promotion">
+                        <span class="font-weight-bold">I’ll cook and shoot</span> your recipe in my
+                        designer kitchen and give you the RAW files as well as retouched JPGs.
+                    </div>
+                </div>
+                <div class="info text-left">
+                    <img src="images/info.svg" alt="info"> View featured image and video requirements.
+                </div>
+            </div>
+            <form data-ember-action="" data-ember-action-277="277" class="d-lg-none">
+                <button class="btn btn-primary" type="submit">Save &amp; Next</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+    </footer>
+</div>
+<script src="js/dropzone.js"></script>
+</body>
+</html>
