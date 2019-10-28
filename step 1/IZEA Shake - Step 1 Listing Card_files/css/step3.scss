@@ -126,16 +126,36 @@
       border-radius: 5px;
     }
 
-    p {
-      bottom: 15%;
+
+    .control{
+      bottom: 10%;
       left: 10%;
-      font-weight: bold;
-      font-size: 1rem;
-      @media (max-width: 400px) {
-        font-size: 0.8rem;
+      right: 10%;
+      p{
+        display: inline-block;
+        font-size: 0.6rem;
+        color: #fff;
+        background-color: rgba(212, 212, 204, 0.7);
+        border-radius: 5px;
+        padding: 0.2rem 1rem;
+        @media (max-width: 1200px) {
+          font-size: 1.2rem;
+        }
+        @media (min-width: 1500px) {
+          font-size: 1.2rem;
+          padding: 0.3rem 1.2rem;
+        }
       }
-      @media (min-width: 600px) and (max-width: 1400px) {
-        font-size: 1.2rem;
+      .trash{
+        position: absolute;
+        right: 0;
+        width: 8%;
+        top: 10%;
+      }
+      &.control-selected{
+        p {
+          background-color: $title-color;
+        }
       }
     }
   }
