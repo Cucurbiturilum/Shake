@@ -295,6 +295,8 @@
 }
 .step-2 .description .ql-editor {
   border-color: #ececec;
+  color: #86888c;
+  font-size: 1.1rem;
 }
 .step-2 .package {
   background-color: #fff;
@@ -302,7 +304,7 @@
   border-color: #ececec;
 }
 .step-2 .package form {
-  padding: 2.5rem 1.25rem;
+  padding: 1.25rem;
   background-color: #fcfcfc;
 }
 .step-2 .package form .forms {
@@ -313,11 +315,18 @@
     border-right: 1px solid #ececec;
   }
 }
+.step-2 .package form .forms .form-control:disabled, .step-2 .package form .forms .form-control[readonly] {
+  background-color: transparent;
+  border: none;
+}
 .step-2 .package form .forms input {
   height: 3rem;
   border-color: #ececec;
   color: #86888c;
   font-size: 1.1rem;
+}
+.step-2 .package form .forms input::placeholder {
+  color: #86888c;
 }
 .step-2 .package form .forms textarea {
   height: 10rem;
@@ -332,8 +341,8 @@
   font-size: 1.1rem;
 }
 .step-2 .package .form-check .form-check-input {
-  width: 1.3rem;
-  height: 1.3rem;
+  width: 1.6rem;
+  height: 1.6rem;
   margin-left: 0;
 }
 .step-2 .package .form-check .form-check-label {
@@ -358,7 +367,7 @@
   border-color: #ececec;
 }
 .step-2 .extras form {
-  padding: 2.5rem 1.25rem 1.375rem 1.25rem;
+  padding: 1.25rem;
   background-color: #fcfcfc;
 }
 .step-2 .extras form input {
@@ -366,6 +375,9 @@
   border-color: #ececec;
   color: #86888c;
   font-size: 1.1rem;
+}
+.step-2 .extras form input::placeholder {
+  color: #86888c;
 }
 .step-2 .extras form .input-group-text {
   font-size: 1.1rem;
@@ -379,15 +391,237 @@
 }
 .step-2 .save {
   margin-top: 2.5rem;
-  margin-right: 12px;
 }
 
+.step-3 {
+  /*upload area*/
+}
+.step-3 .dropzone {
+  border: 1px solid #ececec;
+  border-radius: 5px;
+  margin-bottom: 1.25rem;
+  height: 25rem;
+}
+.step-3 .dropzone .dz-preview-img {
+  border-radius: 0;
+}
+.step-3 .dropzone.dz-max-files-reached .placeholder {
+  display: none !important;
+}
+.step-3 .dropzone .placeholder {
+  padding: 1.25rem 3.35rem 0 3.35rem;
+  position: absolute;
+  border-radius: 5px;
+}
+@media (max-width: 400px) {
+  .step-3 .dropzone .placeholder {
+    padding: 1.25rem 2rem 0 2rem;
+  }
+}
+@media (min-width: 600px) and (max-width: 992px) {
+  .step-3 .dropzone .placeholder {
+    padding: 1.25rem 5rem 0 5rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1400px) {
+  .step-3 .dropzone .placeholder {
+    padding: 1.1rem 1.1rem 0 1.1rem;
+  }
+}
+.step-3 .dropzone .placeholder p {
+  color: #86888c;
+  font-size: 1.3rem;
+}
+@media (max-width: 400px) {
+  .step-3 .dropzone .placeholder p {
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 600px) and (max-width: 992px) {
+  .step-3 .dropzone .placeholder p {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1400px) {
+  .step-3 .dropzone .placeholder p {
+    font-size: 1.3rem;
+  }
+}
+.step-3 .dropzone .placeholder p span {
+  font-size: 1.1rem;
+}
+@media (max-width: 400px) {
+  .step-3 .dropzone .placeholder p span {
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 600px) and (max-width: 992px) {
+  .step-3 .dropzone .placeholder p span {
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1400px) {
+  .step-3 .dropzone .placeholder p span {
+    font-size: 0.9rem;
+  }
+}
+.step-3 .dropzone .placeholder .upload {
+  background-color: #56d9ab;
+  color: #fff;
+  border-radius: 5px;
+  width: 8rem;
+  line-height: 2;
+  font-size: 1.3rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+}
+.step-3 .dropzone .dz-message {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+.step-3 .dropzone .dz-message span {
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+  left: 0;
+}
+.step-3 h5 {
+  color: #86888c;
+  margin-bottom: 1.25rem;
+}
+.step-3 .gallery {
+  padding: 0.625rem;
+}
+.step-3 .gallery .preview-gallery {
+  display: flex;
+  width: 20%;
+  padding: 0.625rem 0.625rem 0.625rem 0.625rem;
+}
+@media (max-width: 425px) {
+  .step-3 .gallery .preview-gallery {
+    width: 100%;
+  }
+}
+@media (min-width: 425px) and (max-width: 1024px) {
+  .step-3 .gallery .preview-gallery {
+    width: 50%;
+  }
+}
+.step-3 .gallery .preview-gallery img {
+  border-radius: 5px;
+}
+.step-3 h3 {
+  color: #86888c;
+  font-size: 1.3rem;
+  border-color: #ececec;
+  padding-bottom: 1.25rem;
+}
+.step-3 .featured {
+  margin-bottom: 1.25rem;
+  border-radius: 5px;
+  background-color: #ececec;
+}
+.step-3 .featured img {
+  border-radius: 5px;
+}
+.step-3 .featured p {
+  bottom: 15%;
+  left: 10%;
+  font-weight: bold;
+  font-size: 1rem;
+}
+@media (max-width: 400px) {
+  .step-3 .featured p {
+    font-size: 0.8rem;
+  }
+}
+@media (min-width: 600px) and (max-width: 1400px) {
+  .step-3 .featured p {
+    font-size: 1.2rem;
+  }
+}
+.step-3 .save {
+  margin-top: 1.25rem;
+  margin-left: auto;
+}
+.step-3 .save.save-second {
+  padding-right: 12px;
+}
+
+.step-4 .requirement {
+  background-color: #fff;
+  padding: 1.25rem;
+  border-color: #ececec;
+  margin-bottom: 2.5rem;
+}
+.step-4 .requirement .requirement-1,
+.step-4 .requirement .requirement-2 {
+  padding: 1.25rem;
+  background-color: #fcfcfc;
+}
+.step-4 .requirement .requirement-1 textarea,
+.step-4 .requirement .requirement-2 textarea {
+  height: 10rem;
+  padding: 1.25rem;
+  font-size: 1.1rem;
+  color: #86888c;
+}
+.step-4 .requirement .requirement-1 textarea::placeholder,
+.step-4 .requirement .requirement-2 textarea::placeholder {
+  font-size: 1.1rem;
+  color: #86888c;
+}
+.step-4 .requirement .requirement-1 #answer-1, .step-4 .requirement .requirement-1 #answer-2, .step-4 .requirement .requirement-1 #answer-3,
+.step-4 .requirement .requirement-2 #answer-1,
+.step-4 .requirement .requirement-2 #answer-2,
+.step-4 .requirement .requirement-2 #answer-3 {
+  height: 3rem;
+  font-size: 1.1rem;
+  color: #86888c;
+}
+.step-4 .requirement .requirement-1 .form-check,
+.step-4 .requirement .requirement-2 .form-check {
+  padding-left: 2.5rem;
+}
+@media (max-width: 767px) {
+  .step-4 .requirement .requirement-1 .form-check,
+.step-4 .requirement .requirement-2 .form-check {
+    padding-left: 0;
+  }
+}
+.step-4 .requirement .requirement-1 .form-check .form-check-input,
+.step-4 .requirement .requirement-2 .form-check .form-check-input {
+  height: 1.6rem;
+  width: 1.6rem;
+}
+.step-4 .requirement .requirement-1 .form-check label,
+.step-4 .requirement .requirement-2 .form-check label {
+  padding-right: 0;
+  padding-left: 1rem;
+  padding-top: 0.2rem;
+  color: #86888c;
+  vertical-align: top;
+}
+
+@media (min-width: 768px) {
+  header .navbar-expand-md .navbar-collapse.user-collapse {
+    display: none !important;
+  }
+}
 header .navbar {
   padding: 0.5rem 6rem;
   border: none;
 }
+header .navbar .navbar-brand {
+  width: 8rem;
+}
 header .navbar .navbar-brand img {
-  max-height: 100%;
+  width: auto;
+  max-height: 3rem;
+  margin-left: -3px;
 }
 header .navbar.crams {
   border-top: 1px solid #ececec;
@@ -398,9 +632,9 @@ header .navbar.crams {
     padding: 0.9rem 1.25rem;
   }
 }
-@media (min-width: 1200px) {
-  header .navbar .container-fluid {
-    height: 60px;
+@media (min-width: 768px) and (max-width: 1200px) {
+  header .navbar .container-fluid.step {
+    justify-content: center;
   }
 }
 header .navbar .container-fluid .nav-item {
@@ -418,7 +652,7 @@ header .navbar .container-fluid .nav-item .nav-link {
 }
 @media (max-width: 768px) {
   header .navbar .container-fluid .nav-item .nav-link {
-    padding-right: 1.5rem;
+    padding-right: 0.5rem;
   }
 }
 @media (min-width: 768px) and (max-width: 1280px) {
@@ -468,6 +702,7 @@ header .steps {
 }
 @media (min-width: 1200px) {
   header .steps {
+    height: 60px;
     margin: 0;
     width: 100%;
     overflow: hidden;
@@ -594,9 +829,9 @@ header .steps div .btn.btn-sm {
     margin: 0 7px 0 9px;
   }
 }
-header .steps div .btn-success {
+header .steps div .btn-current {
   background-color: #56d9ab;
-  border-color: #56d9ab;
+  border: none;
 }
 header .steps div .btn-white {
   border: none;
@@ -620,7 +855,7 @@ section {
   background-color: #fbfbfb;
   padding: 0 6rem;
   /*header of each steps*/
-  /*button "Save&Next*/
+  /**button "Save&Next**/
   /* button Add more*/
   /*button delete */
 }

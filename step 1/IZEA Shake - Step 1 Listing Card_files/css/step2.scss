@@ -20,6 +20,8 @@
 
     .ql-editor {
       border-color: #ececec;
+      color: $text-color;
+      font-size: 1.1rem;
     }
   }
 
@@ -29,7 +31,7 @@
     border-color: #ececec;
 
     form {
-      padding: 2.5rem 1.25rem;
+      padding: 1.25rem;
       background-color: #fcfcfc;
 
       .forms {
@@ -37,12 +39,18 @@
         @media (min-width: 1024px) {
           border-right: 1px solid #ececec;
         }
-
+        .form-control:disabled, .form-control[readonly]{
+          background-color: transparent;
+          border: none;
+        }
         input {
           height: 3rem;
           border-color: #ececec;
           color: $text-color;
           font-size: 1.1rem;
+          &::placeholder{
+            color: $text-color;
+          }
         }
 
         textarea {
@@ -63,8 +71,8 @@
 
     .form-check {
       .form-check-input {
-        width: 1.3rem;
-        height: 1.3rem;
+        width: 1.6rem;
+        height: 1.6rem;
         margin-left: 0;
       }
 
@@ -89,18 +97,24 @@
     border-color: #ececec;
 
     form {
-      padding: 2.5rem 1.25rem 1.375rem 1.25rem;
+      padding: 1.25rem;
       background-color: #fcfcfc;
+
 
       input {
         height: 3rem;
         border-color: #ececec;
         color: $text-color;
         font-size: 1.1rem;
+        &::placeholder{
+          color: $text-color;
+        }
       }
-      .input-group-text{
+
+      .input-group-text {
         font-size: 1.1rem;
       }
+
       .custom-select {
         margin-bottom: 1.735rem;
         height: 3rem;
@@ -111,8 +125,7 @@
     }
   }
 
-  .save{
+  .save {
     margin-top: 2.5rem;
-    margin-right: 12px;
   }
 }

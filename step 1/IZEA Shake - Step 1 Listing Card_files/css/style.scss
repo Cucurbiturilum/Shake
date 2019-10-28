@@ -2,16 +2,26 @@ $main-color: #8f2875;
 $title-color: #56d9ab;
 $text-color: #86888c;
 
-@import 'step1', 'step2';
+@import 'step1', 'step2', 'step3', 'step4';
 
 header {
+  .navbar-expand-md .navbar-collapse{
+    &.user-collapse{
+      @media (min-width: 768px) {
+        display: none!important;
+      }
+    }
+  }
   .navbar {
     padding: 0.5rem 6rem;
     border: none;
 
     .navbar-brand {
+      width: 8rem;
       img {
-        max-height: 100%;
+        width: auto;
+        max-height: 3rem;
+        margin-left: -3px;
       }
     }
 
@@ -25,8 +35,10 @@ header {
     }
 
     .container-fluid {
-      @media (min-width: 1200px) {
-        height: 60px;
+      &.step {
+        @media (min-width: 768px) and (max-width: 1200px) {
+          justify-content: center;
+        }
       }
 
       .nav-item {
@@ -40,7 +52,7 @@ header {
             font-size: 0.9rem;
           }
           @media (max-width: 768px) {
-            padding-right: 1.5rem;
+            padding-right: 0.5rem;
           }
         }
 
@@ -75,11 +87,13 @@ header {
         }
       }
     }
-    .user-collapse{
-      .navbar-toggler-2{
+
+    .user-collapse {
+      .navbar-toggler-2 {
         background-color: transparent;
         border: none;
-        a{
+
+        a {
           color: $text-color;
         }
       }
@@ -92,6 +106,7 @@ header {
     margin: 0.5rem 0;
     justify-content: space-between;
     @media (min-width: 1200px) {
+      height: 60px;
       margin: 0;
       width: 100%;
       overflow: hidden;
@@ -213,9 +228,9 @@ header {
         }
       }
 
-      .btn-success {
+      .btn-current {
         background-color: $title-color;
-        border-color: $title-color;
+        border: none;
       }
 
       .btn-white {
@@ -271,7 +286,6 @@ section {
     }
   }
 
-  /*header of each steps*/
   .section-title {
     background-color: #d4d4d4;
     color: #fff;
@@ -283,6 +297,8 @@ section {
       font-size: 1rem;
     }
   }
+
+  /*header of each steps*/
 
   form {
     label {
@@ -313,11 +329,11 @@ section {
     }
   }
 
-  /*button "Save&Next*/
+  /**button "Save&Next**/
 
   .add {
     .btn-primary,
-    .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+    .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
       background-color: $title-color;
       border-color: $title-color;
       font-size: 1.1rem;
@@ -346,9 +362,10 @@ section {
       font-size: 1.2rem;
       width: 8rem;
     }
-    .btn-white:not(:disabled):not(.disabled).active, .btn-white:not(:disabled):not(.disabled):active, .show>.btn-white.dropdown-toggle,
+
+    .btn-white:not(:disabled):not(.disabled).active, .btn-white:not(:disabled):not(.disabled):active, .show > .btn-white.dropdown-toggle,
     .btn-white:focus, .btn-white:hover,
-    .btn-white:focus, .btn-white:hover{
+    .btn-white:focus, .btn-white:hover {
       background-color: #fff;
 
     }

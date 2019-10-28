@@ -19,7 +19,7 @@
     <nav class="navbar navbar-expand-md navbar-light bg-white">
         <div class="container-fluid ">
             <a class="navbar-brand" href="#">
-                <img src="images/shake-logo.svg" alt="logo" class=""/>
+                <img src="images/logo.png" alt="logo" class="w-100"/>
             </a>
             <span class="messages mr-4 ml-auto d-md-none">132</span>
             <button class="navbar-toggler" data-toggle="collapse" data-target=".navbar-supported-content"
@@ -177,201 +177,124 @@
         </div>
     </nav>
 </header>
-<section class="step-2">
+<section class="step-4">
     <div>
-        <!--    step 2a-->
         <div>
             <div class="header-body pt-0 align-items-center">
                 <h2 class="header-title font-weight-light">
-                    Step 2a: Shake Description
+                    Step 4: Shake Requirements
                 </h2>
                 <h6 class="header-pretitle mb-0">
-                    Provide an overview of what service you intend to provide yours customers.
+                    What information do you need from your customers in order to get to start?
                 </h6>
             </div>
-            <div class="description border rounded">
-                <form action="" class="row ml-0 pl-3">
-                    <label for="quill" class="col-md-2 text-left text-md-right pt-lg-3">
-                        Full description of your Shake
-                        <span class="d-block word-count">56/1000</span>
-                    </label>
-                    <div class="col-md-10">
-                        <div data-toggle="quill" data-options='{"placeholder": ""}' id="quill"></div>
-                    </div>
-                </form>
-            </div>
-        </div>
-        <!--    step 2b-->
-        <div>
-            <div class="header-body pt-0 align-items-center">
-                <h2 class="header-title font-weight-light">
-                    Step 2b: Shake Packages
-                </h2>
-                <h6 class="header-pretitle mb-0">
-                    You can add up to four unique packages, each with different prices and
-                    specification.
-                </h6>
-            </div>
-            <div class="package border rounded">
-                <div class="border rounded">
-                    <div class="rounded text-left section-title">
-                        Package 1: Standard Package
-                    </div>
-                    <form action="">
-                        <div class="row mr-0 ml-0">
-                            <div class="forms col-lg-8 px-0 px-md-4">
+            <div class="requirement border rounded">
+                <div>
+                    <div class="border rounded mb-4">
+                        <div class="rounded text-left section-title">
+                            Shake Requirement #1
+                        </div>
+                        <form>
+                            <div class="requirement-1">
                                 <div class="form-group d-md-flex">
-                                    <label class="col-md-3 my-auto text-left text-md-right pb-3 pb-md-0 pl-0">Package
-                                        Name</label>
-                                    <input type="text" class="form-control form-control-auto border"
-                                           placeholder="30 Sec Spot at 1080P">
+                                    <textarea class="border form-control" data-toggle="autosize"
+                                              placeholder="Please let me know what type of music would you like in the background."></textarea>
                                 </div>
+                                <div class="form-group d-flex flex-wrap mb-0">
+                                    <label for="answer-1"
+                                           class="col-md-3 col-lg-2 text-left text-md-right pb-2 pb-md-0 pl-0 mb-0 mt-md-2">Answer Type</label>
+                                    <select class="form-control col-md-3 col-lg-2 border custom-select"
+                                            id="answer-1">
+                                        <option>Free Text</option>
+                                    </select>
+                                    <div class="form-check col-md-6 pt-4 pt-md-2">
+                                        <input class="form-check-input position-static ml-0" type="checkbox" value="" id="check1">
+                                        <label class="form-check-label" for="check1">
+                                            Required Answer
+                                        </label>
+                                    </div>
+                                    <p class="col-lg-2 text-right w-100 delete mt-5 mt-lg-0 px-0">
+                                        <button class="btn btn-primary btn-white" type="reset">Delete</button>
+                                    </p>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div> <!--#1-->
+                    <div class="border rounded mb-4">
+                        <div class="rounded text-left section-title">
+                            Shake Requirement #2
+                        </div>
+                        <form>
+                            <div class="requirement-2">
                                 <div class="form-group d-md-flex">
-                                    <label class="col-md-3 my-auto text-left text-md-right pb-3 pb-md-0 pl-0 shake">
-                                        Package description
-                                        <span class="d-block word-count">56/400</span>
-                                    </label>
-                                    <textarea class="border form-control col-md-9"></textarea>
+                                    <textarea class="border form-control" data-toggle="autosize"
+                                              placeholder="Please upload a picture of your grandmother"></textarea>
                                 </div>
-                                <div class="form-group d-md-flex row mx-0">
-                                    <label for="delivery"
-                                           class="col-md-3 text-left text-md-right pb-2 pb-md-0 pl-0 mb-0 mt-md-2">Delivery
-                                        Time</label>
-                                    <select class="form-control col-md-3 border custom-select"
-                                            id="delivery">
-                                        <option>2 Days</option>
-                                        <option>7 Days</option>
-                                        <option>1 Week</option>
+                                <div class="form-group d-flex flex-wrap mb-0">
+                                    <label for="answer-2"
+                                           class="col-md-3 col-lg-2 text-left text-md-right pb-2 pb-md-0 pl-0 mb-0 mt-md-2">Answer Type</label>
+                                    <select class="form-control col-md-3 col-lg-2 border custom-select"
+                                            id="answer-2">
+                                        <option>Upload</option>
                                     </select>
-                                    <label for="revision"
-                                           class="col-md-3 text-left text-md-right pb-2 pb-md-0 pl-0 mb-0 mt-md-2">Revision</label>
-                                    <select class="form-control col-md-3 border custom-select"
-                                            id="revision">
-                                        <option>2 Revisions</option>
-                                        <option>3 Revisions</option>
-                                        <option>4 Revisions</option>
-                                    </select>
-                                    <label for="licensing"
-                                           class="col-md-3 text-left text-md-right pb-2 pb-md-0 pl-0 mb-0 mt-md-2">Licensing</label>
-                                    <select class="form-control col-md-3 border custom-select"
-                                            id="licensing">
-                                        <option>Commercial</option>
-                                        <option>Public</option>
-                                    </select>
-                                    <label for="pricing"
-                                           class="text-left text-md-right pb-2 pb-md-0 pl-0 mb-0 mt-md-2 col-md-3">Pricing</label>
-                                    <input type="text" class="form-control col-md-3" id="pricing" placeholder="$100"
-                                           readonly>
+                                    <div class="form-check col-md-6 pt-4 pt-md-2">
+                                        <input class="form-check-input position-static ml-0" type="checkbox" value="" id="check2">
+                                        <label class="form-check-label" for="check2">
+                                            Required Answer
+                                        </label>
+                                    </div>
+                                    <p class="col-lg-2 text-right w-100 delete mt-5 mt-lg-0 px-0">
+                                        <button class="btn btn-primary btn-white" type="reset">Delete</button>
+                                    </p>
                                 </div>
+
                             </div>
-                            <div class="col-lg-4 text-left px-0 ">
-                                <div class="form-check pl-0 pl-md-4">
-                                    <input class="form-check-input" type="checkbox" id="checkbox1"
-                                           value="option1"
-                                           checked>
-                                    <label class="form-check-label" for="checkbox1">
-                                        Writing
-                                    </label>
-                                </div>
-                                <div class="form-check pl-0 pl-md-4">
-                                    <input class="form-check-input" type="checkbox" id="checkbox2"
-                                           value="option2">
-                                    <label class="form-check-label" for="checkbox2">
-                                        Model
-                                    </label>
-                                </div>
-                                <div class="form-check pl-0 pl-md-4">
-                                    <input class="form-check-input" type="checkbox" id="checkbox3"
-                                           value="option2">
-                                    <label class="form-check-label" for="checkbox3">
-                                        Background Music
-                                    </label>
-                                </div>
-                                <div class="form-check pl-0 pl-md-4">
-                                    <input class="form-check-input" type="checkbox" id="checkbox4"
-                                           value="option2">
-                                    <label class="form-check-label" for="checkbox4">
-                                        Video Compression
-                                    </label>
-                                </div>
-                                <div class="form-check pl-0 pl-md-4">
-                                    <input class="form-check-input" type="checkbox" id="checkbox5"
-                                           value="option2">
-                                    <label class="form-check-label" for="checkbox5">
-                                        Editing
-                                    </label>
-                                </div>
-                            </div>
-                            <p class="text-right w-100 delete mt-4 mb-0">
-                                <button class="btn btn-primary btn-white" type="reset">Delete</button>
-                            </p>
+                        </form>
+                    </div><!--#2-->
+                    <div class="border rounded mb-4">
+                        <div class="rounded text-left section-title">
+                            Shake Requirement #3
                         </div>
-                    </form>
+                        <form>
+                            <div class="requirement-2">
+                                <div class="form-group d-md-flex">
+                                    <input class="border form-control" data-toggle="autosize" placeholder="What color would you like the background to be?">
+                                </div>
+
+                                <div class="form-group d-flex flex-wrap mb-0">
+                                    <label for="answer-3"
+                                           class="col-md-3 col-lg-2 text-left text-md-right pb-2 pb-md-0 pl-0 mb-0 mt-md-2">Answer Type</label>
+                                    <select class="form-control col-md-3 col-lg-2 border custom-select"
+                                            id="answer-3">
+                                        <option>Drop Down</option>
+                                    </select>
+                                    <div class="form-check col-md-6 pt-4 pt-md-2">
+                                        <input class="form-check-input position-static ml-0" type="checkbox" value="" id="check3">
+                                        <label class="form-check-label" for="check3">
+                                            Required Answer
+                                        </label>
+                                    </div>
+                                    <p class="col-lg-2 text-right w-100 delete mt-5 mt-lg-0 px-0">
+                                        <button class="btn btn-primary btn-white" type="reset">Delete</button>
+                                    </p>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div><!--#3-->
+                    <p class="text-right add">
+                        <button class="btn btn-primary" type="submit">
+                            <a href="#" class="btn btn-rounded-circle">+</a>
+                            Add Another Requirement
+                        </button>
+                    </p>
+
                 </div>
-                <p class="text-right add">
-                    <button class="btn btn-primary" type="submit">
-                        <a href="#" class="btn btn-rounded-circle">+</a>
-                        Add Another Package
-                    </button>
-                </p>
-            </div>
-        </div>
-        <!--    step 2c-->
-        <div>
-            <div class="header-body pt-0 align-items-center">
-                <h2 class="header-title font-weight-light">
-                    Step 2c: Shake Extras
-                </h2>
-                <h6 class="header-pretitle mb-0">
-                    If you have optional services that can be added to this Shake list them here.
-                </h6>
-            </div>
-            <div class="extras border rounded">
-                <div class="border rounded">
-                    <div class="rounded text-left section-title">
-                        Extra 1
-                    </div>
-                    <form action="">
-                        <div class="form-group d-md-flex">
-                            <label class="col-md-2 my-auto text-left text-md-right pb-3 pb-md-0 pl-0">Extra
-                                Name</label>
-                            <input type="text" class="form-control form-control-auto border"
-                                   placeholder="30 Sec Spot at 1080P">
-                        </div>
-                        <div class="form-group d-md-flex mx-0 mb-0">
-                            <label for="delivery2"
-                                   class="col-md-2 text-left text-md-right pb-2 pb-md-0 pl-0 mb-0 mt-md-2">Delivery
-                                Time</label>
-                            <select class="form-control col-md-2 border custom-select mb-0"
-                                    id="delivery2">
-                                <option>2 Days</option>
-                                <option>7 Days</option>
-                                <option>1 Week</option>
-                            </select>
-                            <label class="col-md-3 text-left text-md-right pb-2 pb-md-0 pl-0 mb-0 mt-md-2">Addition
-                                Cost</label>
-                            <div class="input-group col-md-2 px-0 mb-auto">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text border-right-0 border" id="inputGroupPrepend">$</span>
-                                </div>
-                                <input type="text" class="form-control border-left-0 border mb-0">
-                            </div>
-                            <p class="col-md-3 text-right delete pr-0 mb-0 mt-4 mt-md-0">
-                                <button class="btn btn-primary btn-white" type="reset">Delete</button>
-                            </p>
-                        </div>
-                    </form>
-                </div>
-                <p class="text-right add">
-                    <button class="btn btn-primary" type="submit">
-                        <a href="#" class="btn btn-rounded-circle">+</a>
-                        Add An Extra
-                    </button>
-                </p>
             </div>
         </div>
     </div>
-    <p class="text-right save">
+    <p class="text-right d-none d-lg-block save">
         <button class="btn btn-primary" type="submit">Save &amp; Continue</button>
     </p>
 </section>

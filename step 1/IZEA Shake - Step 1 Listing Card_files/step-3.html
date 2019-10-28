@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html data-ember-extension="1" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>IZEA Gigs</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="turquoise-web/config/environment"
+          content="%7B%22modulePrefix%22%3A%22turquoise-web%22%2C%22environment%22%3A%22development%22%2C%22rootURL%22%3A%22%2F%22%2C%22locationType%22%3A%22auto%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%2C%22_JQUERY_INTEGRATION%22%3Atrue%7D%2C%22APP%22%3A%7B%22name%22%3A%22turquoise-web%22%2C%22version%22%3A%220.1.0%2B224b192e%22%7D%2C%22ember-cli-notifications%22%3A%7B%22includeFontAwesome%22%3Atrue%7D%2C%22turquoise%22%3A%7B%22izeaxApiUrl%22%3A%22http%3A%2F%2Fapi.iex.com%3A5500%22%2C%22diamondApiUrl%22%3A%22http%3A%2F%2Flocalhost%3A5030%22%2C%22diamondClientId%22%3A%22aafa78f07e37b1a9f1fa5ebdf7698a147ed346d2da89d68be75d52d565928b85%22%2C%22diamondClientSecret%22%3A%22d001a1ed8d6c04a7403ab732488aeeda4d6454e9bb0223880e3c0ee6e56ef4d7%22%2C%22obsidianApiUrl%22%3A%22http%3A%2F%2Flocalhost%3A5000%22%7D%2C%22exportApplicationGlobal%22%3Atrue%2C%22isModuleUnification%22%3Afalse%7D">
+    <link rel="stylesheet" href="fonts/feather/feather.css">
+    <link rel="stylesheet" href="assets/libs/quill/dist/quill.snow.css">
+    <link rel="stylesheet" href="assets/libs/select2/dist/css/select2.min.css">
+    <link rel="stylesheet" href="assets/css/theme.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-md navbar-light bg-white">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#">
+                <img src="images/shake-logo.svg" alt="logo" class=""/>
+            </a>
+            <span class="messages mr-4 ml-auto d-md-none">132</span>
+            <button class="navbar-toggler" data-toggle="collapse" data-target=".navbar-supported-content"
+                    aria-controls="navbar-supported-content" aria-expanded="false" aria-label="Toggle navigation"
+                    type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="w-100 text-right user-collapse collapse navbar-collapse navbar-supported-content ">
+                <button class="navbar-toggler-2 " data-toggle="collapse" data-target=".navbar-user-content"
+                        aria-controls="navbar-user-content" aria-expanded="false" aria-label="Toggle navigation">
+                    <a class="nav-link text-right navbar-user d-inline-block" href="#">
+                        J. Doverness
+                    </a>
+                    <a class="nav-link avatar avatar-sm " href="#">
+                        <img src="images/avatar.png" alt="avatar" class="avatar-img rounded-circle">
+                    </a>
+                </button>
+                <div class="collapse navbar-collapse navbar-user-content">
+                    <ul class="navbar-nav text-right">
+                        <li class="nav-item d-flex justify-content-end align-items-center">
+                            <div>
+                                <a class="nav-link" href="#">Switch to Buying</a>
+                                <a class="nav-link" href="#">Profile</a>
+                                <a class="nav-link" href="#">Security</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div><!--User collapse-->
+            <div class="collapse navbar-collapse justify-content-between navbar-supported-content">
+                <ul class="navbar-nav text-right">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            Orders
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            Shakes
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            Affiliate
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            Finances
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            Messages
+                            <span class="messages d-none d-lg-inline-block">
+                                    132
+                                </span>
+                        </a>
+                    </li>
+                </ul>
+            </div><!--Menu-->
+            <div class="collapse navbar-collapse justify-content-between navbar-supported-content d-none d-md-flex">
+                <ul class="navbar-nav mr-2">
+                    <li class="nav-item m-auto dropdown d-flex align-items-center">
+                        <a class="nav-link text-right navbarDropdown navbar-user d-inline-block d-sm-none d-xl-inline-block"
+                           href="#"
+                           role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            J. Doverness
+                        </a>
+                        <a class="avatar avatar-sm nav-link dropdown-toggle navbarDropdown"
+                           href="#"
+                           role="button" data-toggle="dropdown" aria-haspopup="true"
+                           aria-expanded="false">
+                            <img src="images/avatar.png" alt="avatar" class="avatar-img rounded-circle">
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#"
+                               data-ember-action="" data-ember-action-264="264">Switch to Buying</a>
+                            <a class="dropdown-item" href="#"
+                               data-ember-action="" data-ember-action-264="264">Profile</a>
+                            <a class="dropdown-item" href="#"
+                               data-ember-action="" data-ember-action-264="264">Security</a>
+                        </div>
+                    </li>
+                </ul>
+            </div><!--User dropdown-->
+        </div>
+    </nav>
+</header>
+<header>
+    <nav class="navbar navbar-expand-md bg-white py-0 crams">
+        <div class="container-fluid step">
+            <div class="steps">
+                <div class="col-md-4 font-weight-bold text-uppercase d-none d-xl-inline mb-lg-0 pl-0">
+                        <span>
+                            Create Shake
+                        </span>
+                </div>
+                <div data-ember-action="" data-ember-action-265="265"
+                     class="col-md-4 pr-0 mb-lg-0">
+                    <span class="btn btn-sm btn-rounded-circle btn-white">1</span>
+                    <span class="d-none d-md-inline d-none d-md-inline pt-2 steps-item">
+                           Listing Card
+                       </span>
+                </div>
+                <div data-ember-action="" data-ember-action-266="266"
+                     class="col-md-4 pr-0 mb-lg-0">
+                    <span class="btn btn-sm btn-rounded-circle btn-white">2</span>
+                    <span class="d-none d-md-inline d-none d-md-inline pt-2 steps-item">
+                           Description
+                       </span>
+                </div>
+                <div data-ember-action="" data-ember-action-267="267"
+                     class="col-md-4 pr-0 mb-lg-0 current">
+                    <span class="btn btn-sm btn-rounded-circle btn-current">3</span>
+                    <span class="d-none d-md-inline d-none d-md-inline pt-2 steps-item">
+                           Samples
+                        </span>
+                </div>
+                <div data-ember-action="" data-ember-action-268="268"
+                     class="col-md-4 pr-0 mb-lg-0">
+                    <span class="btn btn-sm btn-rounded-circle btn-white">4</span>
+                    <span class="d-none d-md-inline d-none d-md-inline pt-2 steps-item">
+                            Requirements
+                        </span>
+                </div>
+                <div data-ember-action="" data-ember-action-269="269"
+                     class="col-md-4 pr-0 mb-lg-0">
+                    <span class="btn btn-sm btn-rounded-circle btn-white">5</span>
+                    <span class="d-none d-md-inline d-none d-md-inline pt-2 steps-item">
+                           Q&A
+                       </span>
+                </div>
+                <div data-ember-action="" data-ember-action-270="270"
+                     class="col-md-4 pr-0 mb-lg-0">
+                    <span class="btn btn-sm btn-rounded-circle btn-white">6</span>
+                    <span class="d-none d-md-inline d-none d-md-inline pt-2 steps-item">
+                           Submit
+                       </span>
+                </div>
+                <div data-ember-action="" data-ember-action-270="270"
+                     class="col-md-4 pr-0">
+
+                </div>
+                <div data-ember-action="" data-ember-action-270="270"
+                     class="current-item col-4 d-md-none text-left">
+                    Listing Card
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<section class="step-3">
+    <div>
+        <div class="header-body pt-0 align-items-center">
+            <h2 class="header-title font-weight-light">
+                Step 3: Your Shake Samples
+            </h2>
+            <h6 class="header-pretitle mb-0">
+                Provide representative examples of the end work product you intend to produce for our customers.
+            </h6>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-8">
+            <div class="dropzone dropzone-single d-flex justify-content-center align-items-center"
+                 data-toggle="dropzone"
+                 data-options='{"url": "https://", "maxFiles": 1, "acceptedFiles": "image/*", "dictDefaultMessage": ""}'>
+                <!-- Fallback -->
+                <div class="fallback">
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input"
+                               id="projectCoverUploads">
+                        <label class="custom-file-label" for="projectCoverUploads">Choose
+                            file</label>
+                    </div>
+                </div>
+                <!-- Preview -->
+                <div class="dz-preview dz-preview-single text-center">
+                    <div class="dz-preview-cover">
+                        <img class="dz-preview-img" src="javascript:void(0)" alt="..."
+                             data-dz-thumbnail>
+                    </div>
+                </div>
+                <div class="placeholder text-center">
+                    <img src="images/image-regular.svg" alt="image" class="w-25 mr-4">
+                    <img src="images/film-solid.svg" alt="film" class="w-25">
+                    <p>Drop a featured photo or video here.
+                        <span class="d-block">Image and video will be displayed in a 16:9 aspect ratio.</span>
+                    </p>
+                    <p class="upload">Browse</p>
+                </div>
+            </div>
+            <h5>
+                You can also select media from previous Shake.
+            </h5>
+            <div class="gallery border rounded">
+                <div class="d-flex flex-wrap">
+                    <div class="preview-gallery">
+                        <div class="border rounded">
+                            <img src="images/dropzone.png" alt="example" class="h-100 w-100">
+                        </div>
+                    </div>
+                    <div class="preview-gallery">
+                        <div class="border rounded">
+                            <img src="images/dropzone.png" alt="example" class="h-100 w-100">
+                        </div>
+                    </div>
+                    <div class="preview-gallery">
+                        <div class="border rounded">
+                            <img src="images/dropzone.png" alt="example" class="h-100 w-100">
+                        </div>
+                    </div>
+                    <div class="preview-gallery">
+                        <div class="border rounded">
+                            <img src="images/dropzone.png" alt="example" class="h-100 w-100">
+                        </div>
+                    </div>
+                    <div class="preview-gallery">
+                        <div class="border rounded">
+                            <img src="images/dropzone.png" alt="example" class="h-100 w-100">
+                        </div>
+                    </div>
+                    <div class="preview-gallery">
+                        <div class="border rounded">
+                            <img src="images/dropzone.png" alt="example" class="h-100 w-100">
+                        </div>
+                    </div>
+                    <div class="preview-gallery">
+                        <div class="border rounded">
+                            <img src="images/dropzone.png" alt="example" class="h-100 w-100">
+                        </div>
+                    </div>
+                    <div class="preview-gallery">
+                        <div class="border rounded">
+                            <img src="images/dropzone.png" alt="example" class="h-100 w-100">
+                        </div>
+                    </div>
+                    <div class="preview-gallery">
+                        <div class="border rounded">
+                            <img src="images/dropzone.png" alt="example" class="h-100 w-100">
+                        </div>
+                    </div>
+                    <div class="preview-gallery">
+                        <div class="border rounded">
+                            <img src="images/dropzone.png" alt="example" class="h-100 w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-right save d-none d-xl-block">
+                <button class="btn btn-primary" type="submit">Save &amp; Continue</button>
+            </p>
+        </div>
+        <div class="col-xl-4 mt-4 mt-xl-0">
+            <h3 class="border-bottom">Media attached to this Shake</h3>
+            <div class="row">
+                <div class="col-md-6 position-relative">
+                    <div class="featured border">
+                        <img src="images/dropzone.png" alt="example" class="h-100 w-100">
+                        <p class="position-absolute">Featured</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="featured border">
+                        <img src="images/dropzone.png" alt="example" class="h-100 w-100">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="featured border">
+                        <img src="images/dropzone.png" alt="example" class="h-100 w-100">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="featured border">
+                        <img src="images/dropzone.png" alt="example" class="h-100 w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="text-right save save-second d-block d-xl-none">
+            <button class="btn btn-primary" type="submit">Save &amp; Continue</button>
+        </p>
+    </div>
+
+</section>
+<script src="js/dropzone.js"></script>
+<script src="js/ember-cli-live-reload.js"></script>
+<script src="js/livereload.js"></script>
+<script src="js/vendor.js"></script>
+<script src="js/turquoise-web.js"></script>
+<script src="assets/libs/quill/dist/quill.min.js"></script>
+<script src="assets/js/theme.min.js"></script>
+</body>

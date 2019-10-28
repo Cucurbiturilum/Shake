@@ -1,0 +1,45 @@
+.step-4{
+  .requirement{
+    background-color: #fff;
+    padding: 1.25rem;
+    border-color: #ececec;
+    margin-bottom: 2.5rem;
+    .requirement-1,
+    .requirement-2{
+      padding: 1.25rem;
+      background-color: #fcfcfc;
+      textarea{
+        height: 10rem;
+        padding: 1.25rem;
+        font-size: 1.1rem;
+        color:$text-color;
+        &::placeholder{
+          font-size: 1.1rem;
+          color:$text-color;
+        }
+      }
+      #answer-1, #answer-2, #answer-3{
+        height: 3rem;
+        font-size: 1.1rem;
+        color:$text-color;
+      }
+      .form-check{
+        padding-left: 2.5rem;
+        @media (max-width: 767px) {
+          padding-left: 0;
+        }
+        .form-check-input{
+          height: 1.6rem;
+          width: 1.6rem;
+        }
+        label{
+          padding-right: 0;
+          padding-left: 1rem;
+          padding-top: 0.2rem;
+          color: $text-color;
+          vertical-align: top;
+        }
+      }
+    }
+  }
+}
