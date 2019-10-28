@@ -558,52 +558,125 @@
   margin-bottom: 2.5rem;
 }
 .step-4 .requirement .requirement-1,
-.step-4 .requirement .requirement-2 {
+.step-4 .requirement .requirement-2,
+.step-4 .requirement .requirement-3 {
   padding: 1.25rem;
   background-color: #fcfcfc;
 }
 .step-4 .requirement .requirement-1 textarea,
-.step-4 .requirement .requirement-2 textarea {
+.step-4 .requirement .requirement-2 textarea,
+.step-4 .requirement .requirement-3 textarea {
   height: 10rem;
   padding: 1.25rem;
   font-size: 1.1rem;
   color: #86888c;
 }
 .step-4 .requirement .requirement-1 textarea::placeholder,
-.step-4 .requirement .requirement-2 textarea::placeholder {
+.step-4 .requirement .requirement-2 textarea::placeholder,
+.step-4 .requirement .requirement-3 textarea::placeholder {
   font-size: 1.1rem;
   color: #86888c;
 }
-.step-4 .requirement .requirement-1 #answer-1, .step-4 .requirement .requirement-1 #answer-2, .step-4 .requirement .requirement-1 #answer-3,
+.step-4 .requirement .requirement-1 #answer-1, .step-4 .requirement .requirement-1 #answer-2, .step-4 .requirement .requirement-1 #answer-3, .step-4 .requirement .requirement-1 #answer-4,
 .step-4 .requirement .requirement-2 #answer-1,
 .step-4 .requirement .requirement-2 #answer-2,
-.step-4 .requirement .requirement-2 #answer-3 {
+.step-4 .requirement .requirement-2 #answer-3,
+.step-4 .requirement .requirement-2 #answer-4,
+.step-4 .requirement .requirement-3 #answer-1,
+.step-4 .requirement .requirement-3 #answer-2,
+.step-4 .requirement .requirement-3 #answer-3,
+.step-4 .requirement .requirement-3 #answer-4 {
   height: 3rem;
   font-size: 1.1rem;
   color: #86888c;
 }
 .step-4 .requirement .requirement-1 .form-check,
-.step-4 .requirement .requirement-2 .form-check {
+.step-4 .requirement .requirement-2 .form-check,
+.step-4 .requirement .requirement-3 .form-check {
   padding-left: 2.5rem;
 }
 @media (max-width: 767px) {
   .step-4 .requirement .requirement-1 .form-check,
-.step-4 .requirement .requirement-2 .form-check {
+.step-4 .requirement .requirement-2 .form-check,
+.step-4 .requirement .requirement-3 .form-check {
     padding-left: 0;
   }
 }
 .step-4 .requirement .requirement-1 .form-check .form-check-input,
-.step-4 .requirement .requirement-2 .form-check .form-check-input {
+.step-4 .requirement .requirement-2 .form-check .form-check-input,
+.step-4 .requirement .requirement-3 .form-check .form-check-input {
   height: 1.6rem;
   width: 1.6rem;
 }
+@media (min-width: 1440px) {
+  .step-4 .requirement .requirement-1 .form-check .form-check-input,
+.step-4 .requirement .requirement-2 .form-check .form-check-input,
+.step-4 .requirement .requirement-3 .form-check .form-check-input {
+    height: 2rem;
+    width: 2rem;
+  }
+}
 .step-4 .requirement .requirement-1 .form-check label,
-.step-4 .requirement .requirement-2 .form-check label {
+.step-4 .requirement .requirement-2 .form-check label,
+.step-4 .requirement .requirement-3 .form-check label {
   padding-right: 0;
-  padding-left: 1rem;
+  padding-left: 0.5rem;
   padding-top: 0.2rem;
   color: #86888c;
   vertical-align: top;
+}
+@media (min-width: 1440px) {
+  .step-4 .requirement .requirement-1 .form-check label,
+.step-4 .requirement .requirement-2 .form-check label,
+.step-4 .requirement .requirement-3 .form-check label {
+    padding-top: 0.3rem;
+    font-size: 1.3rem;
+  }
+}
+.step-4 .requirement .requirement-3 .input-group input {
+  height: 3rem;
+  margin-bottom: 1.25rem;
+  line-height: 1;
+  border-color: #ececec;
+  border-radius: 5px;
+}
+.step-4 .requirement .requirement-3 .input-group input::placeholder {
+  font-size: 1.1rem;
+  color: #86888c;
+}
+.step-4 .requirement .requirement-3 .input-group label {
+  padding: 0.6rem 1.25rem 0 1.25rem;
+  color: #86888c;
+  font-size: 1.1rem;
+}
+@media (max-width: 425px) {
+  .step-4 .requirement .requirement-3 .input-group label {
+    padding: 0.6rem 0.6rem 0 0.6rem;
+  }
+}
+.step-4 .requirement .requirement-3 .input-group .input-group-append {
+  height: 3rem;
+}
+.step-4 .requirement .requirement-3 .input-group .input-group-append .btn {
+  line-height: 1;
+  padding: 0 0.75rem;
+}
+@media (max-width: 425px) {
+  .step-4 .requirement .requirement-3 .input-group .input-group-append .btn {
+    padding: 0 0.3rem;
+  }
+}
+.step-4 .requirement .requirement-3 .input-group .input-group-append .btn.focus, .step-4 .requirement .requirement-3 .input-group .input-group-append .btn:focus {
+  box-shadow: none;
+}
+.step-4 .requirement .requirement-3 .input-group .input-group-append .btn i {
+  font-size: 1.5rem;
+  color: #86888c;
+}
+@media (max-width: 425px) {
+  .step-4 .requirement .requirement-3 .input-group .input-group-append .btn i {
+    font-size: 1.1rem;
+  }
 }
 
 @media (min-width: 768px) {

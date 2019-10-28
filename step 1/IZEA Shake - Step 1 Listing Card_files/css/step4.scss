@@ -1,43 +1,108 @@
-.step-4{
-  .requirement{
+.step-4 {
+  .requirement {
     background-color: #fff;
     padding: 1.25rem;
     border-color: #ececec;
     margin-bottom: 2.5rem;
+
     .requirement-1,
-    .requirement-2{
+    .requirement-2,
+    .requirement-3 {
       padding: 1.25rem;
       background-color: #fcfcfc;
-      textarea{
+
+      textarea {
         height: 10rem;
         padding: 1.25rem;
         font-size: 1.1rem;
-        color:$text-color;
-        &::placeholder{
+        color: $text-color;
+
+        &::placeholder {
           font-size: 1.1rem;
-          color:$text-color;
+          color: $text-color;
         }
       }
-      #answer-1, #answer-2, #answer-3{
+
+      #answer-1, #answer-2, #answer-3, #answer-4 {
         height: 3rem;
         font-size: 1.1rem;
-        color:$text-color;
+        color: $text-color;
       }
-      .form-check{
+
+      .form-check {
         padding-left: 2.5rem;
         @media (max-width: 767px) {
           padding-left: 0;
         }
-        .form-check-input{
+
+        .form-check-input {
           height: 1.6rem;
           width: 1.6rem;
+          @media (min-width: 1440px) {
+            height: 2rem;
+            width: 2rem;
+          }
         }
-        label{
+
+        label {
           padding-right: 0;
-          padding-left: 1rem;
+          padding-left: 0.5rem;
           padding-top: 0.2rem;
           color: $text-color;
           vertical-align: top;
+          @media (min-width: 1440px) {
+            padding-top: 0.3rem;
+            font-size: 1.3rem;
+          }
+        }
+      }
+    }
+
+    .requirement-3 {
+      .input-group {
+        input {
+          height: 3rem;
+          margin-bottom: 1.25rem;
+          line-height: 1;
+          border-color: #ececec;
+          border-radius: 5px;
+
+          &::placeholder {
+            font-size: 1.1rem;
+            color: $text-color;
+          }
+        }
+
+        label {
+          padding: 0.6rem 1.25rem 0 1.25rem;
+          color: $text-color;
+          font-size: 1.1rem;
+          @media (max-width: 425px) {
+            padding: 0.6rem 0.6rem 0 0.6rem;
+          }
+        }
+
+        .input-group-append {
+          height: 3rem;
+
+          .btn {
+            line-height: 1;
+            padding: 0 0.75rem;
+            @media (max-width: 425px) {
+              padding: 0 0.3rem;
+            }
+            &.focus, &:focus{
+              box-shadow: none;
+            }
+
+            i {
+              font-size: 1.5rem;
+              color: $text-color;
+              @media (max-width: 425px) {
+                font-size: 1.1rem;
+              }
+            }
+          }
         }
       }
     }
