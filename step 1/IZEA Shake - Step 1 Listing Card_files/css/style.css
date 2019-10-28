@@ -696,6 +696,37 @@
   }
 }
 
+.step-5 .border {
+  border-color: #ececec !important;
+}
+.step-5 .requirement {
+  padding: 1.25rem;
+  background-color: #fff;
+}
+.step-5 .requirement form {
+  background-color: #fcfcfc;
+  padding: 1.25rem;
+}
+.step-5 .requirement form input {
+  height: 3rem;
+}
+.step-5 .requirement form input::placeholder {
+  color: #86888c;
+  font-size: 1.1rem;
+}
+.step-5 .requirement form textarea {
+  height: 10rem;
+  color: #86888c;
+  font-size: 1.1rem;
+}
+.step-5 .requirement form textarea::placeholder {
+  color: #86888c;
+  font-size: 1.1rem;
+}
+.step-5 .save {
+  margin-top: 2.5rem;
+}
+
 @media (min-width: 768px) {
   header .navbar-expand-md .navbar-collapse.user-collapse {
     display: none !important;

@@ -1,4 +1,37 @@
+.step-5 {
+  .border {
+    border-color: #ececec !important;
+  }
 
-.step-5{
+  .requirement {
+    padding: 1.25rem;
+    background-color: #fff;
 
+    form {
+      background-color: #fcfcfc;
+      padding: 1.25rem;
+
+      input {
+        height: 3rem;
+
+        &::placeholder {
+          color: $text-color;
+          font-size: 1.1rem;
+        }
+      }
+
+      textarea {
+        height: 10rem;
+        color: $text-color;
+        font-size: 1.1rem;
+        &::placeholder {
+          color: $text-color;
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+  .save{
+    margin-top: 2.5rem;
+  }
 }
