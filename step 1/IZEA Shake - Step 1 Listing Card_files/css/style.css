@@ -727,6 +727,152 @@
   margin-top: 2.5rem;
 }
 
+.step-6 .border {
+  border-color: #ececec;
+}
+.step-6 .launch {
+  padding: 1.25rem;
+  background-color: #fff;
+}
+.step-6 .launch .title {
+  font-size: 2.8rem;
+  margin-bottom: 1.25rem;
+}
+@media (max-width: 375px) {
+  .step-6 .launch .title {
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 425px) and (max-width: 1024px) {
+  .step-6 .launch .title {
+    font-size: 1.9rem;
+  }
+}
+.step-6 .launch .breadcrumb {
+  margin-bottom: 1.25rem;
+}
+.step-6 .launch .breadcrumb .breadcrumb-item {
+  color: #86888c;
+  font-size: 1.1rem;
+}
+@media (max-width: 375px) {
+  .step-6 .launch .breadcrumb .breadcrumb-item {
+    font-size: 0.8rem;
+  }
+}
+@media (min-width: 1500px) {
+  .step-6 .launch .breadcrumb .breadcrumb-item {
+    font-size: 1.5rem;
+  }
+}
+.step-6 .launch .breadcrumb .breadcrumb-item a {
+  color: #86888c;
+}
+.step-6 .img-primary {
+  margin-bottom: 1.25rem;
+}
+.step-6 .thumbnail {
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+}
+@media (min-width: 600px) {
+  .step-6 .thumbnail {
+    flex-wrap: nowrap;
+  }
+}
+.step-6 p {
+  color: #86888c;
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+@media (max-width: 900px) {
+  .step-6 p {
+    margin-bottom: 1.25rem;
+  }
+}
+@media (min-width: 1440px) {
+  .step-6 p {
+    font-size: 1.1rem;
+  }
+}
+.step-6 .card-body {
+  margin-bottom: 2.5rem;
+}
+@media (min-width: 1440px) {
+  .step-6 .card-body {
+    margin-bottom: 5rem;
+  }
+}
+.step-6 .card-body .list-group .list-group-item {
+  border-color: #ececec;
+  border-bottom: 1px solid #ececec;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: #86888c;
+  font-size: 1.3rem;
+}
+@media (min-width: 1500px) {
+  .step-6 .card-body .list-group .list-group-item {
+    font-size: 1.5rem;
+  }
+}
+.step-6 .card-body .list-group .list-group-item small {
+  font-size: 1.3rem;
+}
+@media (min-width: 1500px) {
+  .step-6 .card-body .list-group .list-group-item small {
+    font-size: 1.5rem;
+  }
+}
+.step-6 .card-body .list-group .list-group-item:last-child {
+  border-bottom: 1px solid #ececec;
+}
+.step-6 .form-group {
+  margin-bottom: 2.5rem;
+}
+.step-6 .form-group label {
+  margin-bottom: 1.25rem;
+  color: #8f2875;
+  font-size: 1.1rem;
+}
+@media (min-width: 1500px) {
+  .step-6 .form-group label {
+    font-size: 1.5rem;
+  }
+}
+.step-6 .form-group textarea {
+  height: 10rem;
+  font-size: 1.1rem;
+}
+.step-6 .form-group textarea::placeholder {
+  color: #86888c;
+  font-size: 1.1rem;
+}
+.step-6 .form-group .select2-container--default.select2-container--focus .select2-selection--multiple, .step-6 .form-group .select2-container--default .select2-selection--multiple {
+  height: 10rem !important;
+}
+.step-6 .form-group .select2-container--default.select2-container--focus .select2-selection--multiple .select2-selection__choice, .step-6 .form-group .select2-container--default .select2-selection--multiple .select2-selection__choice {
+  padding: 0.3rem 0.6rem;
+  background-color: #56d9ab;
+  color: #fff;
+  font-size: 1.1rem;
+}
+.step-6 .form-group .select2-container--default.select2-container--focus .select2-selection--multiple .select2-container--default.select2-container--focus .select2-selection--multiple:focus, .step-6 .form-group .select2-container--default.select2-container--focus .select2-selection--multiple .select2-container--default .select2-search--dropdown .select2-search__field:focus, .step-6 .form-group .select2-container--default.select2-container--focus .select2-selection--multiple .select2-container--default .select2-selection--multiple:focus, .step-6 .form-group .select2-container--default.select2-container--focus .select2-selection--multiple .select2-container .select2-selection--single:focus, .step-6 .form-group .select2-container--default .select2-selection--multiple .select2-container--default.select2-container--focus .select2-selection--multiple:focus, .step-6 .form-group .select2-container--default .select2-selection--multiple .select2-container--default .select2-search--dropdown .select2-search__field:focus, .step-6 .form-group .select2-container--default .select2-selection--multiple .select2-container--default .select2-selection--multiple:focus, .step-6 .form-group .select2-container--default .select2-selection--multiple .select2-container .select2-selection--single:focus {
+  border-color: #ececec;
+  font-size: 1.1rem;
+  color: #86888c;
+}
+.step-6 .form-group .select2-container--default.select2-container--focus .select2-selection--multiple .select2-selection__choice__remove, .step-6 .form-group .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+  color: #fff;
+}
+.step-6 .save {
+  margin: 2.5rem 0;
+}
+.step-6 .save .btn {
+  width: 12rem;
+}
+
 @media (min-width: 768px) {
   header .navbar-expand-md .navbar-collapse.user-collapse {
     display: none !important;
@@ -804,9 +950,8 @@ header .navbar .container-fluid .messages {
 header .navbar .container-fluid .avatar {
   padding-top: 5px;
 }
-header .navbar .container-fluid .avatar img {
-  width: auto;
-  height: auto;
+header .navbar .container-fluid .avatar.nav-link {
+  padding: 0;
 }
 header .navbar .user-collapse .navbar-toggler-2 {
   background-color: transparent;

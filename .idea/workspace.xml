@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af191f12-70f1-4c3c-ab7b-4a9c73e33dc3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/images/trash-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/images/trash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/step6.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/step3.scss" beforeDir="false" afterPath="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/step3.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/step5.scss" beforeDir="false" afterPath="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/step5.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/index.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/step-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/step-3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/step-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/step-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/step-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/step-6.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,15 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/step-3.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/step-6.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="317" column="30" selection-start-line="317" selection-start-column="30" selection-end-line="317" selection-end-column="30" />
+            <state relative-caret-position="476">
+              <caret line="261" column="83" lean-forward="true" selection-start-line="261" selection-start-column="83" selection-end-line="261" selection-end-column="83" />
               <folding>
                 <element signature="n#meta#4;n#head#0;n#html#0;n#!!top" />
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#a#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#button#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#button#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#a#0;n#button#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#a#1;n#button#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -64,47 +68,50 @@
                 <element signature="n#a#1;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#a#2;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#header#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#span#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#span#1;n#div#1;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#span#1;n#div#2;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#span#1;n#div#3;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#span#1;n#div#4;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#5;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#span#1;n#div#5;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#6;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#span#1;n#div#6;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#4;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#7;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#8;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#h6#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#ol#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/step3.scss">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/step6.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="143" column="36" lean-forward="true" selection-start-line="143" selection-start-column="36" selection-end-line="143" selection-end-column="36" />
+            <state relative-caret-position="550">
+              <caret line="140" column="9" lean-forward="true" selection-start-line="140" selection-start-column="9" selection-end-line="140" selection-end-column="9" />
               <folding>
-                <element signature="e#40#1898#0" />
+                <element signature="e#63#701#0" />
+                <element signature="e#126#350#0" />
+                <element signature="e#368#697#0" />
+                <element signature="e#717#727#0" />
+                <element signature="e#769#971#0" />
+                <element signature="e#890#900#0" />
+                <element signature="e#1095#1109#0" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/images/trash-alt.svg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -114,21 +121,13 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="SCSS File" />
         <option value="HTML File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Dropzone.autoDiscover</find>
-      <find>gigs/</find>
-      <find>select</find>
-      <find>border-seco</find>
-      <find>radio</find>
-      <find>sel</find>
-      <find>http://localhost:4400/user/gigs/new#</find>
-      <find>origin</find>
       <find>read</find>
       <find>curr</find>
       <find>plac</find>
@@ -151,6 +150,14 @@
       <find>1.6</find>
       <find>delete</find>
       <find>featured</find>
+      <find>input</find>
+      <find>textare</find>
+      <find>textarea</find>
+      <find>avatar-sm</find>
+      <find>avatar-lg</find>
+      <find>avatar</find>
+      <find>ava</find>
+      <find>lab</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -196,15 +203,17 @@
         <option value="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/step1.scss" />
         <option value="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/step2.scss" />
         <option value="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/step-2.html" />
-        <option value="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/index.htm" />
         <option value="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/step4.scss" />
         <option value="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/step-4.html" />
-        <option value="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/style.scss" />
-        <option value="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/step5.scss" />
-        <option value="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/step-5.html" />
         <option value="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/images/trash-alt.svg" />
         <option value="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/step3.scss" />
+        <option value="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/step5.scss" />
+        <option value="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/step-5.html" />
         <option value="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/step-3.html" />
+        <option value="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/style.scss" />
+        <option value="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/index.htm" />
+        <option value="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/step-6.html" />
+        <option value="$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/step6.scss" />
       </list>
     </option>
   </component>
@@ -250,7 +259,8 @@
               <item name="step 1" type="462c0819:PsiDirectoryNode" />
               <item name="step 1" type="462c0819:PsiDirectoryNode" />
               <item name="IZEA Shake - Step 1 Listing Card_files" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="step6.scss" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -270,14 +280,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\asus\Desktop\Work\shake\step 1\step 1\IZEA Shake - Step 1 Listing Card_files\images" />
       <recent name="C:\Users\asus\Desktop\Work\shake\step 1\step 1\IZEA Shake - Step 1 Listing Card_files" />
       <recent name="C:\Users\asus\Desktop\Work\shake\step 1\step 1\IZEA Shake - Step 1 Listing Card_files\css" />
       <recent name="C:\Users\asus\Desktop\Work\shake\step 1\step 1\IZEA Shake - Step 1 Listing Card_files\js" />
       <recent name="C:\Users\asus\Desktop\Work\shake\step 1 (1)\step 1\IZEA Shake - Step 1 Listing Card_files" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\asus\Desktop\Work\shake\step 1\step 1\IZEA Shake - Step 1 Listing Card_files\images" />
       <recent name="C:\Users\asus\Desktop\Work\shake\step 1\step 1\IZEA Shake - Step 1 Listing Card_files" />
       <recent name="C:\Users\asus\Desktop\Work\shake\step 1\step 1\IZEA Shake - Step 1 Listing Card_files\css" />
@@ -297,14 +307,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.step-4.html">
-    <configuration name="index.htm (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/step 1/step 1/IZEA Shake - Step 1 Listing Card_files/index.htm" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.step-6.html">
+    <configuration name="index.htm" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/step 1/step 1/IZEA Shake - Step 1 Listing Card_files/index.htm" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="step-2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/step 1/step 1/IZEA Shake - Step 1 Listing Card_files/step-2.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="step-3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/step 1/step 1/IZEA Shake - Step 1 Listing Card_files/step-3.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="step-4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/step 1/step 1/IZEA Shake - Step 1 Listing Card_files/step-4.html" useBuiltInWebServerPort="true">
@@ -313,13 +320,16 @@
     <configuration name="step-5.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/step 1/step 1/IZEA Shake - Step 1 Listing Card_files/step-5.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="step-6.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/step 1/step 1/IZEA Shake - Step 1 Listing Card_files/step-6.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.step-4.html" />
-        <item itemvalue="JavaScript Debug.step-3.html" />
-        <item itemvalue="JavaScript Debug.step-5.html" />
+        <item itemvalue="JavaScript Debug.step-6.html" />
+        <item itemvalue="JavaScript Debug.index.htm" />
         <item itemvalue="JavaScript Debug.step-2.html" />
-        <item itemvalue="JavaScript Debug.index.htm (1)" />
+        <item itemvalue="JavaScript Debug.step-5.html" />
+        <item itemvalue="JavaScript Debug.step-4.html" />
       </list>
     </recent_temporary>
   </component>
@@ -358,6 +368,9 @@
       <workItem from="1572032620738" duration="11678000" />
       <workItem from="1572044823348" duration="53000" />
       <workItem from="1572276950459" duration="15241000" />
+      <workItem from="1572298491005" duration="5977000" />
+      <workItem from="1572363414263" duration="2481000" />
+      <workItem from="1572368902974" duration="8372000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1571870114632</created>
@@ -380,11 +393,25 @@
       <option name="project" value="LOCAL" />
       <updated>1572290380210</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fixed step-3: add trash icon">
+      <created>1572298582780</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572298582780</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added step-5">
+      <created>1572301505849</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572301505849</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241807000" />
+    <option name="totallyTimeSpent" value="258637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -434,14 +461,11 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="added steps1-3" />
     <MESSAGE value="added step4" />
-    <option name="LAST_COMMIT_MESSAGE" value="added step4" />
+    <MESSAGE value="fixed step-3: add trash icon" />
+    <MESSAGE value="added step-5" />
+    <option name="LAST_COMMIT_MESSAGE" value="added step-5" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/images/thumb_avatar4d7388ca15447838299c3b50e4bd7531.jpeg" />
-    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/images/shake-logo.psd" />
-    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/js/turquoise-web.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/fonts/Feather.svg" />
     <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/fonts/feather/fonts/Feather.svg">
       <provider selected="true" editor-type-id="images" />
@@ -517,65 +541,11 @@
     <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/images/image-regular.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/step2.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/images/picture.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/images/next.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/images/shake-logo.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/step1.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="151" column="9" selection-start-line="151" selection-start-column="6" selection-end-line="238" selection-end-column="7" />
-          <folding>
-            <element signature="e#25#1591#0" />
-            <element signature="e#109#145#0" />
-            <element signature="e#176#210#0" />
-            <element signature="e#221#1587#0" />
-            <element signature="e#236#1521#0" />
-            <element signature="e#361#1513#0" />
-            <element signature="e#422#465#0" />
-            <element signature="e#495#554#0" />
-            <element signature="e#581#754#0" />
-            <element signature="e#780#1102#0" />
-            <element signature="e#858#902#0" />
-            <element signature="e#942#1024#0" />
-            <element signature="e#1046#1090#0" />
-            <element signature="e#1127#1408#0" />
-            <element signature="e#1159#1396#0" />
-            <element signature="e#1294#1382#0" />
-            <element signature="e#1427#1503#0" />
-            <element signature="e#1541#1581#0" />
-            <element signature="e#1671#1945#0" />
-            <element signature="e#1959#3535#0" />
-            <element signature="e#2068#3527#0" />
-            <element signature="e#2139#2184#0" />
-            <element signature="e#2208#2506#0" />
-            <element signature="e#2334#2382#0" />
-            <element signature="e#2446#2494#0" />
-            <element signature="e#2529#2828#0" />
-            <element signature="e#2656#2704#0" />
-            <element signature="e#2768#2816#0" />
-            <element signature="e#2852#3517#0" />
-            <element signature="e#3009#3057#0" />
-            <element signature="e#3121#3169#0" />
-            <element signature="e#3188#3505#0" />
-            <element signature="e#3321#3373#0" />
-            <element signature="e#3439#3491#0" />
-            <element signature="e#3553#5796#0" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/fonts/feather/feather.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -596,10 +566,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/images/Untitled (1).svg" />
+    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/images/trash.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/step3.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="143" column="36" selection-start-line="143" selection-start-column="36" selection-end-line="143" selection-end-column="36" />
+          <folding>
+            <element signature="e#40#1898#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/images/trash-alt.svg" />
+    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/step2.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/step-4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="179" selection-start-line="179" selection-end-line="323" selection-end-column="10" />
+        <state relative-caret-position="-1402">
+          <caret line="213" column="85" lean-forward="true" selection-start-line="213" selection-start-column="85" selection-end-line="213" selection-end-column="85" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#button#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -644,88 +636,36 @@
             <element signature="n#span#1;n#div#4;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#span#1;n#div#5;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#span#1;n#div#6;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#2;n#div#0;n#form#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/index.htm">
+    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/step-2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+        <state relative-caret-position="448">
+          <caret line="378" column="10" lean-forward="true" selection-start-line="377" selection-end-line="382" selection-end-column="46" />
           <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#button#0;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#button#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#0;n#button#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#1;n#button#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#3;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#4;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#0;n#li#4;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#5;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#0;n#li#5;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#span#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#div#2;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#div#2;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#1;n#li#0;n#ul#0;n#div#2;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#0;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#1;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#2;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#nav#0;n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#span#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#span#1;n#div#1;n#div#0;n#div#0;n#nav#0;n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#span#1;n#div#2;n#div#0;n#div#0;n#nav#0;n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#nav#0;n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#span#1;n#div#3;n#div#0;n#div#0;n#nav#0;n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#span#1;n#div#4;n#div#0;n#div#0;n#nav#0;n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#span#1;n#div#5;n#div#0;n#div#0;n#nav#0;n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#span#1;n#div#6;n#div#0;n#div#0;n#nav#0;n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#header#1;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/step-2.html">
+    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/step5.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="219" column="22" lean-forward="true" selection-start-line="219" selection-start-column="19" selection-end-line="308" selection-end-column="27" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#header#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#form#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="391">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/step-5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="200" column="40" selection-start-line="200" selection-start-column="40" selection-end-line="200" selection-end-column="40" />
+        <state relative-caret-position="150">
+          <caret line="202" column="33" selection-start-line="201" selection-start-column="24" selection-end-line="207" selection-end-column="30" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#meta#4;n#head#0;n#html#0;n#!!top" />
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -784,55 +724,14 @@
             <element signature="n#span#1;n#div#6;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#7;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#8;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#h2#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#h6#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#p#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#button#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#p#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/step5.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/images/Untitled (1).svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/images/trash.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/images/trash-alt.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/step3.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="143" column="36" lean-forward="true" selection-start-line="143" selection-start-column="36" selection-end-line="143" selection-end-column="36" />
-          <folding>
-            <element signature="e#40#1898#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/step-3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="317" column="30" selection-start-line="317" selection-start-column="30" selection-end-line="317" selection-end-column="30" />
+        <state relative-caret-position="201">
+          <caret line="277" column="26" selection-start-line="277" selection-start-column="22" selection-end-line="277" selection-end-column="26" />
           <folding>
             <element signature="n#meta#4;n#head#0;n#html#0;n#!!top" />
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -880,6 +779,7 @@
             <element signature="n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -890,6 +790,209 @@
             <element signature="n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#4;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/step6.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/step1.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="151" column="9" selection-start-line="151" selection-start-column="6" selection-end-line="238" selection-end-column="7" />
+          <folding>
+            <element signature="e#25#1591#0" />
+            <element signature="e#109#145#0" />
+            <element signature="e#176#210#0" />
+            <element signature="e#221#1587#0" />
+            <element signature="e#236#1521#0" />
+            <element signature="e#361#1513#0" />
+            <element signature="e#422#465#0" />
+            <element signature="e#495#554#0" />
+            <element signature="e#581#754#0" />
+            <element signature="e#780#1102#0" />
+            <element signature="e#858#902#0" />
+            <element signature="e#942#1024#0" />
+            <element signature="e#1046#1090#0" />
+            <element signature="e#1127#1408#0" />
+            <element signature="e#1159#1396#0" />
+            <element signature="e#1294#1382#0" />
+            <element signature="e#1427#1503#0" />
+            <element signature="e#1541#1581#0" />
+            <element signature="e#1671#1945#0" />
+            <element signature="e#1959#3535#0" />
+            <element signature="e#2068#3527#0" />
+            <element signature="e#2139#2184#0" />
+            <element signature="e#2208#2506#0" />
+            <element signature="e#2334#2382#0" />
+            <element signature="e#2446#2494#0" />
+            <element signature="e#2529#2828#0" />
+            <element signature="e#2656#2704#0" />
+            <element signature="e#2768#2816#0" />
+            <element signature="e#2852#3517#0" />
+            <element signature="e#3009#3057#0" />
+            <element signature="e#3121#3169#0" />
+            <element signature="e#3188#3505#0" />
+            <element signature="e#3321#3373#0" />
+            <element signature="e#3439#3491#0" />
+            <element signature="e#3553#5796#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/images/picture.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/images/sort-up-and-down-arrows-couple.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#button#0;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#button#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#button#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#3;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#4;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#4;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#5;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#5;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#1;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#2;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#nav#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#nav#0;n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#1;n#div#1;n#div#0;n#div#0;n#nav#0;n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#1;n#div#2;n#div#0;n#div#0;n#nav#0;n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#nav#0;n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#1;n#div#3;n#div#0;n#div#0;n#nav#0;n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#1;n#div#4;n#div#0;n#div#0;n#nav#0;n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#1;n#div#5;n#div#0;n#div#0;n#nav#0;n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#1;n#div#6;n#div#0;n#div#0;n#nav#0;n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="301" column="7" selection-start-line="301" selection-start-column="4" selection-end-line="301" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/step-6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="261" column="83" lean-forward="true" selection-start-line="261" selection-start-column="83" selection-end-line="261" selection-end-column="83" />
+          <folding>
+            <element signature="n#meta#4;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#button#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#button#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#button#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#1;n#button#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#3;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#4;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#4;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#5;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#5;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#2;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#div#2;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#1;n#li#0;n#ul#0;n#div#2;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#1;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#2;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#header#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#1;n#div#1;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#1;n#div#2;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#1;n#div#3;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#1;n#div#4;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#1;n#div#5;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#1;n#div#6;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#8;n#div#0;n#div#0;n#nav#0;n#header#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h6#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ol#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/step 1/IZEA Shake - Step 1 Listing Card_files/css/step6.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="140" column="9" lean-forward="true" selection-start-line="140" selection-start-column="9" selection-end-line="140" selection-end-column="9" />
+          <folding>
+            <element signature="e#63#701#0" />
+            <element signature="e#126#350#0" />
+            <element signature="e#368#697#0" />
+            <element signature="e#717#727#0" />
+            <element signature="e#769#971#0" />
+            <element signature="e#890#900#0" />
+            <element signature="e#1095#1109#0" />
           </folding>
         </state>
       </provider>

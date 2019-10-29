@@ -1,0 +1,148 @@
+.step-6 {
+  .border {
+    border-color: #ececec;
+  }
+
+  .launch {
+    padding: 1.25rem;
+    background-color: #fff;
+
+    .title {
+      font-size: 2.8rem;
+      margin-bottom: 1.25rem;
+      @media (max-width: 375px) {
+        font-size: 1.3rem;
+      }
+      @media (min-width: 425px) and (max-width: 1024px) {
+        font-size: 1.9rem;
+      }
+    }
+
+    .breadcrumb {
+      margin-bottom: 1.25rem;
+
+      .breadcrumb-item {
+        color: $text-color;
+        font-size: 1.1rem;
+        @media (max-width: 375px) {
+          font-size: 0.8rem;
+        }
+        @media (min-width: 1500px) {
+          font-size: 1.5rem;
+        }
+
+        a {
+          color: $text-color;
+        }
+      }
+    }
+  }
+
+  .img-primary {
+    margin-bottom: 1.25rem;
+  }
+
+  .thumbnail {
+    margin-bottom: 1.25rem;
+    flex-wrap: wrap;
+    @media (min-width: 600px) {
+      flex-wrap: nowrap;
+    }
+  }
+
+  p {
+    color: $text-color;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    @media (max-width: 900px) {
+      margin-bottom: 1.25rem;
+    }
+    @media (min-width: 1440px) {
+      font-size: 1.1rem;
+    }
+  }
+
+  .card-body {
+    margin-bottom: 2.5rem;
+    @media (min-width: 1440px) {
+      margin-bottom: 5rem;
+    }
+
+    .list-group {
+      .list-group-item {
+        border-color: #ececec;
+        border-bottom: 1px solid #ececec;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        color: $text-color;
+        font-size: 1.3rem;
+        @media (min-width: 1500px) {
+          font-size: 1.5rem;
+        }
+
+        small {
+          font-size: 1.3rem;
+          @media (min-width: 1500px) {
+            font-size: 1.5rem;
+          }
+        }
+
+        &:last-child {
+          border-bottom: 1px solid #ececec;
+        }
+      }
+    }
+  }
+
+  .form-group {
+    margin-bottom: 2.5rem;
+
+    label {
+      margin-bottom: 1.25rem;
+      color: $main-color;
+      font-size: 1.1rem;
+      @media (min-width: 1500px) {
+        font-size: 1.5rem;
+      }
+    }
+
+    textarea {
+      height: 10rem;
+      font-size: 1.1rem;
+
+      &::placeholder {
+        color: $text-color;
+        font-size: 1.1rem;
+      }
+    }
+
+    .select2-container--default.select2-container--focus .select2-selection--multiple, .select2-container--default .select2-selection--multiple {
+      height: 10rem !important;
+
+      .select2-selection__choice {
+        padding: 0.3rem 0.6rem;
+        background-color: $title-color;
+        color: #fff;
+        font-size: 1.1rem;
+      }
+
+      .select2-container--default.select2-container--focus .select2-selection--multiple:focus, .select2-container--default .select2-search--dropdown .select2-search__field:focus, .select2-container--default .select2-selection--multiple:focus, .select2-container .select2-selection--single:focus {
+        border-color: #ececec;
+        font-size: 1.1rem;
+        color: $text-color;
+      }
+      .select2-selection__choice__remove{
+        color: #fff;
+      }
+    }
+  }
+
+  .save {
+    margin: 2.5rem 0;
+
+    .btn {
+      width: 12rem;
+    }
+  }
+}

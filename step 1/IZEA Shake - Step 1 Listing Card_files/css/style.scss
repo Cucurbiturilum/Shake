@@ -2,7 +2,7 @@ $main-color: #8f2875;
 $title-color: #56d9ab;
 $text-color: #86888c;
 
-@import 'step1', 'step2', 'step3', 'step4', 'step5';
+@import 'step1', 'step2', 'step3', 'step4', 'step5', 'step6';
 
 header {
   .navbar-expand-md .navbar-collapse{
@@ -80,10 +80,8 @@ header {
 
       .avatar {
         padding-top: 5px;
-
-        img {
-          width: auto;
-          height: auto;
+        &.nav-link{
+          padding: 0;
         }
       }
     }
