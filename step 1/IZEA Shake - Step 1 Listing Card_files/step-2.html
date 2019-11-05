@@ -212,19 +212,24 @@
                     specification.
                 </h6>
             </div>
-            <div class="package border rounded">
-                <div class="border rounded">
+            <div class="packages border rounded">
+                <div class="border rounded package">
                     <div class="rounded text-left section-title">
                         Package 1: Standard Package
                     </div>
                     <form action="">
                         <div class="row mr-0 ml-0">
                             <div class="forms col-lg-8 px-0 px-md-4">
-                                <div class="form-group d-md-flex">
+                                <div class="form-group d-md-flex flex-wrap">
                                     <label class="col-md-3 my-auto text-left text-md-right pb-3 pb-md-0 pl-0">Package
                                         Name</label>
-                                    <input type="text" class="form-control form-control-auto border"
+                                    <input type="text" class="col-md-9 form-control form-control-auto border is-invalid"
                                            placeholder="30 Sec Spot at 1080P">
+                                    <div id="ember558" class="invalid-feedback ember-view col-md-8 offset-md-3 pl-0">
+                                        <div>
+                                            Title can't be blank
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="form-group d-md-flex">
                                     <label class="col-md-3 my-auto text-left text-md-right pb-3 pb-md-0 pl-0 shake">
@@ -234,30 +239,72 @@
                                     <textarea class="border form-control col-md-9"></textarea>
                                 </div>
                                 <div class="form-group d-md-flex row mx-0">
-                                    <label for="delivery"
-                                           class="col-md-3 text-left text-md-right pb-2 pb-md-0 pl-0 mb-0 mt-md-2">Delivery
-                                        Time</label>
-                                    <select class="form-control col-md-3 border custom-select"
-                                            id="delivery">
-                                        <option>2 Days</option>
-                                        <option>7 Days</option>
-                                        <option>1 Week</option>
-                                    </select>
-                                    <label for="revision"
-                                           class="col-md-3 text-left text-md-right pb-2 pb-md-0 pl-0 mb-0 mt-md-2">Revision</label>
-                                    <select class="form-control col-md-3 border custom-select"
-                                            id="revision">
-                                        <option>2 Revisions</option>
-                                        <option>3 Revisions</option>
-                                        <option>4 Revisions</option>
-                                    </select>
-                                    <label for="licensing"
-                                           class="col-md-3 text-left text-md-right pb-2 pb-md-0 pl-0 mb-0 mt-md-2">Licensing</label>
-                                    <select class="form-control col-md-3 border custom-select"
-                                            id="licensing">
-                                        <option>Commercial</option>
-                                        <option>Public</option>
-                                    </select>
+                                    <div class="col-md-6 mb-4">
+                                        <div class="row">
+                                            <label for="delivery"
+                                                   class="col-md-6 text-left text-md-right pb-2 pb-md-0 pl-0 mb-0 mt-md-2">Delivery
+                                                Time</label>
+                                            <select class="form-control col-md-6 border custom-select is-invalid border-danger"
+                                                    id="delivery">
+                                                <option>-</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>7</option>
+                                                <option>10</option>
+                                                <option>15</option>
+                                                <option>30</option>
+                                            </select>
+                                            <div id="ember564" class="col-md-6 ml-auto invalid-feedback ember-view pl-0 pr-0">
+                                                <div>
+                                                    Delivery in days can't be blank
+                                                </div>
+                                                <div>
+                                                    Delivery in days is not a number
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <div class="row">
+                                            <label for="revision"
+                                                   class="col-md-6 text-left text-md-right pb-2 pb-md-0 pl-0 mb-0 mt-md-2">Revision</label>
+                                            <select class="form-control col-md-6 border custom-select is-invalid border-danger"
+                                                    id="revision">
+                                                <option>-</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </select>
+                                            <div id="ember566" class="col-md-6 ml-auto invalid-feedback ember-view pl-0">
+                                                <div>
+                                                    Revisions can't be blank
+                                                </div>
+                                                <div>
+                                                    Revisions is not a number
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <label for="licensing"
+                                                   class="col-md-6 text-left text-md-right pb-2 pb-md-0 pl-0 mb-0 mt-md-2">Licensing</label>
+                                            <select class="form-control col-md-6 border custom-select is-invalid border-danger"
+                                                    id="licensing">
+                                                <option>-</option>
+                                                <option>Personal use only</option>
+                                                <option>Full commercial use</option>
+                                            </select>
+                                            <div id="ember568" class="col-md-6 ml-auto invalid-feedback ember-view pl-0">
+                                                <div>
+                                                    License can't be blank
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <label for="pricing"
                                            class="text-left text-md-right pb-2 pb-md-0 pl-0 mb-0 mt-md-2 col-md-3">Pricing</label>
                                     <input type="text" class="form-control col-md-3" id="pricing" placeholder="$100"
@@ -327,7 +374,7 @@
                 </h6>
             </div>
             <div class="extras border rounded">
-                <div class="border rounded">
+                <div class="border rounded extra">
                     <div class="rounded text-left section-title">
                         Extra 1
                     </div>

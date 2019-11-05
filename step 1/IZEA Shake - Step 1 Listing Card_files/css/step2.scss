@@ -24,11 +24,15 @@
       font-size: 1.1rem;
     }
   }
-
+.packages{
+  background-color: #fff;
+  padding: 1.25rem;
+  border-color: #ececec;
   .package {
-    background-color: #fff;
-    padding: 1.25rem;
-    border-color: #ececec;
+    margin-top: 1.25rem;
+    &:first-of-type{
+      margin-top: 0;
+    }
 
     form {
       padding: 1.25rem;
@@ -60,11 +64,13 @@
         }
 
         .custom-select {
-          margin-bottom: 1.735rem;
           height: 3rem;
           border-color: #ececec;
           color: $text-color;
           font-size: 1.1rem;
+        }
+        .invalid-feedback{
+          font-size: 0.8rem;
         }
       }
     }
@@ -90,39 +96,48 @@
       }
     }
   }
+}
+
 
   .extras {
     background-color: #fff;
     padding: 1.25rem;
     border-color: #ececec;
+    .extra{
+      margin-top: 1.25rem;
+      &:first-of-type{
+        margin-top: 0;
+      }
+      form {
+        padding: 1.25rem;
+        background-color: #fcfcfc;
 
-    form {
-      padding: 1.25rem;
-      background-color: #fcfcfc;
 
-
-      input {
-        height: 3rem;
-        border-color: #ececec;
-        color: $text-color;
-        font-size: 1.1rem;
-        &::placeholder{
+        input {
+          height: 3rem;
+          border-color: #ececec;
           color: $text-color;
+          font-size: 1.1rem;
+          &::placeholder{
+            color: $text-color;
+          }
+        }
+
+        .input-group-text {
+          font-size: 1.1rem;
+        }
+
+        .custom-select {
+          margin-bottom: 1.735rem;
+          height: 3rem;
+          border-color: #ececec;
+          color: $text-color;
+          font-size: 1.1rem;
         }
       }
-
-      .input-group-text {
-        font-size: 1.1rem;
-      }
-
-      .custom-select {
-        margin-bottom: 1.735rem;
-        height: 3rem;
-        border-color: #ececec;
-        color: $text-color;
-        font-size: 1.1rem;
-      }
     }
+
+
   }
 
   .save {

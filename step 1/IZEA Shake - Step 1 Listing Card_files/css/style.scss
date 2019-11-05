@@ -5,19 +5,21 @@ $text-color: #86888c;
 @import 'step1', 'step2', 'step3', 'step4', 'step5', 'step6';
 
 header {
-  .navbar-expand-md .navbar-collapse{
-    &.user-collapse{
+  .navbar-expand-md .navbar-collapse {
+    &.user-collapse {
       @media (min-width: 768px) {
-        display: none!important;
+        display: none !important;
       }
     }
   }
+
   .navbar {
     padding: 0.5rem 6rem;
     border: none;
 
     .navbar-brand {
       width: 8rem;
+
       img {
         width: auto;
         max-height: 3rem;
@@ -78,9 +80,17 @@ header {
         }
       }
 
+      .user-name {
+        display: inline-block;
+        @media (max-width: 1315px) {
+          display: none;
+        }
+      }
+
       .avatar {
         padding-top: 5px;
-        &.nav-link{
+
+        &.nav-link {
           padding: 0;
         }
       }
